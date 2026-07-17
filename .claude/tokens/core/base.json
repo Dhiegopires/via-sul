@@ -1,0 +1,1544 @@
+{
+  "core": {
+    "color": {
+      "base": {
+        "black": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#000000",
+          "$description": "Cor primitiva de fundação: base/black. Não usar diretamente em componentes — referencie via semantic/color."
+        },
+        "white": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#ffffff",
+          "$description": "Cor primitiva de fundação: base/white. Não usar diretamente em componentes — referencie via semantic/color."
+        },
+        "transparent": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#ffffff00",
+          "$description": "Cor primitiva de fundação: base/transparent. Não usar diretamente em componentes — referencie via semantic/color."
+        }
+      },
+      "alpha": {
+        "black": {
+          "10": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#0000001a",
+            "$description": "Preto 10% opacidade. Usado por background/disabled."
+          },
+          "20": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#00000033",
+            "$description": "Preto 20% opacidade. Foreground nível 5 (mais fraco)."
+          },
+          "30": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#0000004d",
+            "$description": "Preto 30% opacidade. Usado por border/disabled."
+          },
+          "38": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#00000061",
+            "$description": "Preto 38% opacidade. Usado por foreground/disabled."
+          },
+          "50": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#00000080",
+            "$description": "Preto 50% opacidade. Foreground nível 3 (médio)."
+          },
+          "70": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#000000b3",
+            "$description": "Preto 70% opacidade. Foreground nível 2."
+          },
+          "90": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#000000e6",
+            "$description": "Preto 90% opacidade. Foreground nível 1 (mais forte)."
+          }
+        },
+        "white": {
+          "10": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#ffffff1a",
+            "$description": "Branco 10% opacidade. Dark mode: background/disabled."
+          },
+          "20": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#ffffff33",
+            "$description": "Branco 20% opacidade. Dark mode: foreground nível 5."
+          },
+          "30": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#ffffff4d",
+            "$description": "Branco 30% opacidade. Dark mode: border/disabled."
+          },
+          "38": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#ffffff61",
+            "$description": "Branco 38% opacidade. Dark mode: foreground/disabled."
+          },
+          "50": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#ffffff80",
+            "$description": "Branco 50% opacidade. Dark mode: foreground nível 3."
+          },
+          "70": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#ffffffb3",
+            "$description": "Branco 70% opacidade. Dark mode: foreground nível 2."
+          },
+          "90": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#ffffffe6",
+            "$description": "Branco 90% opacidade. Dark mode: foreground nível 1."
+          }
+        }
+      }
+    },
+    "font": {
+      "weight": {
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 200,
+          "$description": "Propriedade tipográfica de fundação: weight/200. Token primitivo — referencie via semantic/type."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 300,
+          "$description": "Propriedade tipográfica de fundação: weight/300. Token primitivo — referencie via semantic/type."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 400,
+          "$description": "Propriedade tipográfica de fundação: weight/400. Token primitivo — referencie via semantic/type."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 500,
+          "$description": "Propriedade tipográfica de fundação: weight/500. Token primitivo — referencie via semantic/type."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 600,
+          "$description": "Propriedade tipográfica de fundação: weight/600. Token primitivo — referencie via semantic/type."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 700,
+          "$description": "Propriedade tipográfica de fundação: weight/700. Token primitivo — referencie via semantic/type."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 800,
+          "$description": "Propriedade tipográfica de fundação: weight/800. Token primitivo — referencie via semantic/type."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 900,
+          "$description": "Propriedade tipográfica de fundação: weight/900. Token primitivo — referencie via semantic/type."
+        }
+      },
+      "size": {
+        "12": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 12,
+          "$description": "Propriedade tipográfica de fundação: size/12. Token primitivo — referencie via semantic/type."
+        },
+        "14": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 14,
+          "$description": "Propriedade tipográfica de fundação: size/14. Token primitivo — referencie via semantic/type."
+        },
+        "16": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 16,
+          "$description": "Propriedade tipográfica de fundação: size/16. Token primitivo — referencie via semantic/type."
+        },
+        "18": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 18,
+          "$description": "Propriedade tipográfica de fundação: size/18. Token primitivo — referencie via semantic/type."
+        },
+        "20": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 20,
+          "$description": "Propriedade tipográfica de fundação: size/20. Token primitivo — referencie via semantic/type."
+        },
+        "24": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 24,
+          "$description": "Propriedade tipográfica de fundação: size/24. Token primitivo — referencie via semantic/type."
+        },
+        "28": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 28,
+          "$description": "Propriedade tipográfica de fundação: size/28. Token primitivo — referencie via semantic/type."
+        },
+        "32": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 32,
+          "$description": "Propriedade tipográfica de fundação: size/32. Token primitivo — referencie via semantic/type."
+        },
+        "36": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 36,
+          "$description": "Propriedade tipográfica de fundação: size/36. Token primitivo — referencie via semantic/type."
+        },
+        "40": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 40,
+          "$description": "Propriedade tipográfica de fundação: size/40. Token primitivo — referencie via semantic/type."
+        },
+        "44": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 44,
+          "$description": "Propriedade tipográfica de fundação: size/44. Token primitivo — referencie via semantic/type."
+        },
+        "48": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 48,
+          "$description": "Propriedade tipográfica de fundação: size/48. Token primitivo — referencie via semantic/type."
+        },
+        "52": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 52,
+          "$description": "Propriedade tipográfica de fundação: size/52. Token primitivo — referencie via semantic/type."
+        },
+        "56": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 56,
+          "$description": "Propriedade tipográfica de fundação: size/56. Token primitivo — referencie via semantic/type."
+        }
+      },
+      "line": {
+        "12": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 12,
+          "$description": "Propriedade tipográfica de fundação: line/12. Token primitivo — referencie via semantic/type."
+        },
+        "14": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 14,
+          "$description": "Propriedade tipográfica de fundação: line/14. Token primitivo — referencie via semantic/type."
+        },
+        "16": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 16,
+          "$description": "Propriedade tipográfica de fundação: line/16. Token primitivo — referencie via semantic/type."
+        },
+        "18": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 18,
+          "$description": "Propriedade tipográfica de fundação: line/18. Token primitivo — referencie via semantic/type."
+        },
+        "20": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 20,
+          "$description": "Propriedade tipográfica de fundação: line/20. Token primitivo — referencie via semantic/type."
+        },
+        "24": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 24,
+          "$description": "Propriedade tipográfica de fundação: line/24. Token primitivo — referencie via semantic/type."
+        },
+        "28": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 28,
+          "$description": "Propriedade tipográfica de fundação: line/28. Token primitivo — referencie via semantic/type."
+        },
+        "32": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 32,
+          "$description": "Propriedade tipográfica de fundação: line/32. Token primitivo — referencie via semantic/type."
+        },
+        "36": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 36,
+          "$description": "Propriedade tipográfica de fundação: line/36. Token primitivo — referencie via semantic/type."
+        },
+        "40": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 40,
+          "$description": "Propriedade tipográfica de fundação: line/40. Token primitivo — referencie via semantic/type."
+        },
+        "44": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 44,
+          "$description": "Propriedade tipográfica de fundação: line/44. Token primitivo — referencie via semantic/type."
+        },
+        "48": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 48,
+          "$description": "Propriedade tipográfica de fundação: line/48. Token primitivo — referencie via semantic/type."
+        },
+        "52": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 52,
+          "$description": "Propriedade tipográfica de fundação: line/52. Token primitivo — referencie via semantic/type."
+        },
+        "56": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 56,
+          "$description": "Propriedade tipográfica de fundação: line/56. Token primitivo — referencie via semantic/type."
+        },
+        "60": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 60,
+          "$description": "Propriedade tipográfica de fundação: line/60. Token primitivo — referencie via semantic/type."
+        },
+        "64": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 64,
+          "$description": "Propriedade tipográfica de fundação: line/64. Token primitivo — referencie via semantic/type."
+        }
+      },
+      "tracking": {
+        "0": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 0,
+          "$description": "Propriedade tipográfica de fundação: tracking/0. Token primitivo — referencie via semantic/type."
+        },
+        "positive": {
+          "1": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": 0.16,
+            "$description": "Propriedade tipográfica de fundação: tracking/positive/1. Token primitivo — referencie via semantic/type."
+          },
+          "2": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": 0.32,
+            "$description": "Propriedade tipográfica de fundação: tracking/positive/2. Token primitivo — referencie via semantic/type."
+          },
+          "3": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": 0.48,
+            "$description": "Propriedade tipográfica de fundação: tracking/positive/3. Token primitivo — referencie via semantic/type."
+          },
+          "4": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": 0.64,
+            "$description": "Propriedade tipográfica de fundação: tracking/positive/4. Token primitivo — referencie via semantic/type."
+          },
+          "5": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": 0.8,
+            "$description": "Propriedade tipográfica de fundação: tracking/positive/5. Token primitivo — referencie via semantic/type."
+          },
+          "6": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": 0.96,
+            "$description": "Propriedade tipográfica de fundação: tracking/positive/6. Token primitivo — referencie via semantic/type."
+          },
+          "7": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": 1.12,
+            "$description": "Propriedade tipográfica de fundação: tracking/positive/7. Token primitivo — referencie via semantic/type."
+          },
+          "8": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": 1.28,
+            "$description": "Propriedade tipográfica de fundação: tracking/positive/8. Token primitivo — referencie via semantic/type."
+          },
+          "9": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": 1.44,
+            "$description": "Propriedade tipográfica de fundação: tracking/positive/9. Token primitivo — referencie via semantic/type."
+          },
+          "10": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": 1.6,
+            "$description": "Propriedade tipográfica de fundação: tracking/positive/10. Token primitivo — referencie via semantic/type."
+          }
+        },
+        "negative": {
+          "1": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": -0.16,
+            "$description": "Propriedade tipográfica de fundação: tracking/negative/1. Token primitivo — referencie via semantic/type."
+          },
+          "2": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": -0.32,
+            "$description": "Propriedade tipográfica de fundação: tracking/negative/2. Token primitivo — referencie via semantic/type."
+          },
+          "3": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": -0.48,
+            "$description": "Propriedade tipográfica de fundação: tracking/negative/3. Token primitivo — referencie via semantic/type."
+          },
+          "4": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": -0.64,
+            "$description": "Propriedade tipográfica de fundação: tracking/negative/4. Token primitivo — referencie via semantic/type."
+          },
+          "5": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": -0.8,
+            "$description": "Propriedade tipográfica de fundação: tracking/negative/5. Token primitivo — referencie via semantic/type."
+          },
+          "6": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": -0.96,
+            "$description": "Propriedade tipográfica de fundação: tracking/negative/6. Token primitivo — referencie via semantic/type."
+          },
+          "7": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": -1.12,
+            "$description": "Propriedade tipográfica de fundação: tracking/negative/7. Token primitivo — referencie via semantic/type."
+          },
+          "8": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": -1.28,
+            "$description": "Propriedade tipográfica de fundação: tracking/negative/8. Token primitivo — referencie via semantic/type."
+          },
+          "9": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": -1.44,
+            "$description": "Propriedade tipográfica de fundação: tracking/negative/9. Token primitivo — referencie via semantic/type."
+          },
+          "10": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": -1.6,
+            "$description": "Propriedade tipográfica de fundação: tracking/negative/10. Token primitivo — referencie via semantic/type."
+          }
+        }
+      }
+    },
+    "radius": {
+      "1": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 1,
+        "$description": "Token de fundação (core): radius / 1. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "2": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 2,
+        "$description": "Token de fundação (core): radius / 2. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "4": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 4,
+        "$description": "Token de fundação (core): radius / 4. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "6": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 6,
+        "$description": "Token de fundação (core): radius / 6. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "8": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 8,
+        "$description": "Token de fundação (core): radius / 8. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "12": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 12,
+        "$description": "Token de fundação (core): radius / 12. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "16": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 16,
+        "$description": "Token de fundação (core): radius / 16. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "20": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 20,
+        "$description": "Token de fundação (core): radius / 20. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "24": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 24,
+        "$description": "Token de fundação (core): radius / 24. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "28": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 28,
+        "$description": "Token de fundação (core): radius / 28. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "32": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 32,
+        "$description": "Token de fundação (core): radius / 32. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "none": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 0,
+        "$description": "Token de fundação (core): radius / none. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "pill": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 999,
+        "$description": "Token de fundação (core): radius / pill. Valor primitivo — prefira tokens semânticos em componentes."
+      }
+    },
+    "space": {
+      "0": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 0,
+        "$description": "Token de fundação (core): space / 0. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "2": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 2,
+        "$description": "Token de fundação (core): space / 1. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "4": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 4,
+        "$description": "Token de fundação (core): space / 2. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "6": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 6,
+        "$description": "Token de fundação (core): space / 3. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "8": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 8,
+        "$description": "Token de fundação (core): space / 4. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "10": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 10,
+        "$description": "Token de fundação (core): space / 5. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "12": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 12,
+        "$description": "Token de fundação (core): space / 5. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "14": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 14,
+        "$description": "Token de fundação (core): space / 5. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "16": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 16,
+        "$description": "Token de fundação (core): space / 6. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "18": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 18,
+        "$description": "Token de fundação (core): space / 6. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "20": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 20,
+        "$description": "Token de fundação (core): space / 7. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "22": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 22,
+        "$description": "Token de fundação (core): space / 7. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "24": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 24,
+        "$description": "Token de fundação (core): space / 8. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "26": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 26,
+        "$description": "Token de fundação (core): space / 8. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "28": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 28,
+        "$description": "Token de fundação (core): space / 9. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "30": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 30,
+        "$description": "Token de fundação (core): space / 9. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "32": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 32,
+        "$description": "Token de fundação (core): space / 10. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "34": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 34,
+        "$description": "Token de fundação (core): space / 10. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "36": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 36,
+        "$description": "Token de fundação (core): space / 11. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "40": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 40,
+        "$description": "Token de fundação (core): space / 12. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "44": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 44,
+        "$description": "Token de fundação (core): space / 13. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "48": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 48,
+        "$description": "Token de fundação (core): space / 14. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "52": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 52,
+        "$description": "Token de fundação (core): space / 15. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "56": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 56,
+        "$description": "Token de fundação (core): space / 16. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "60": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 60,
+        "$description": "Token de fundação (core): space / 17. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "64": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 64,
+        "$description": "Token de fundação (core): space / 18. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "68": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 68,
+        "$description": "Token de fundação (core): space / 19. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "72": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 72,
+        "$description": "Token de fundação (core): space / 20. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "76": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 76,
+        "$description": "Token de fundação (core): space / 21. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "80": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 80,
+        "$description": "Token de fundação (core): space / 22. Valor primitivo — prefira tokens semânticos em componentes."
+      }
+    },
+    "borderWidth": {
+      "0": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 0,
+        "$description": "Token de fundação (core): borderWidth / 0. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "1": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 1,
+        "$description": "Token de fundação (core): borderWidth / 1. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "2": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 2,
+        "$description": "Token de fundação (core): borderWidth / 2. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "3": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 3,
+        "$description": "Token de fundação (core): borderWidth / 3. Valor primitivo — prefira tokens semânticos em componentes."
+      },
+      "4": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 4,
+        "$description": "Token de fundação (core): borderWidth / 4. Valor primitivo — prefira tokens semânticos em componentes."
+      }
+    },
+    "opacity": {
+      "0": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 0,
+        "$description": "Valor de opacidade de fundação: 0%."
+      },
+      "1": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 10,
+        "$description": "Valor de opacidade de fundação: 1%."
+      },
+      "2": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 20,
+        "$description": "Valor de opacidade de fundação: 2%."
+      },
+      "3": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 30,
+        "$description": "Valor de opacidade de fundação: 3%."
+      },
+      "4": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 40,
+        "$description": "Valor de opacidade de fundação: 4%."
+      },
+      "5": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 50,
+        "$description": "Valor de opacidade de fundação: 5%."
+      },
+      "6": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 60,
+        "$description": "Valor de opacidade de fundação: 6%."
+      },
+      "7": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 70,
+        "$description": "Valor de opacidade de fundação: 7%."
+      },
+      "8": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 80,
+        "$description": "Valor de opacidade de fundação: 8%."
+      },
+      "9": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 90,
+        "$description": "Valor de opacidade de fundação: 9%."
+      },
+      "10": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 100,
+        "$description": "Valor de opacidade de fundação: 10%."
+      }
+    },
+    "grid": {
+      "container": {
+        "max": {
+          "default": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": 1200,
+            "$description": "Token de fundação (core): grid / container / max / default. Valor primitivo — prefira tokens semânticos em componentes."
+          },
+          "wide": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": 1280,
+            "$description": "Token de fundação (core): grid / container / max / wide. Valor primitivo — prefira tokens semânticos em componentes."
+          },
+          "narrow": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": 960,
+            "$description": "Token de fundação (core): grid / container / max / narrow. Valor primitivo — prefira tokens semânticos em componentes."
+          }
+        }
+      }
+    },
+    "size": {
+      "1": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 8,
+        "$description": "Valor de tamanho de fundação: 1. Token primitivo — prefira semantic/size em componentes."
+      },
+      "2": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 12,
+        "$description": "Valor de tamanho de fundação: 2. Token primitivo — prefira semantic/size em componentes."
+      },
+      "3": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 14,
+        "$description": "Valor de tamanho de fundação: 3. Token primitivo — prefira semantic/size em componentes."
+      },
+      "4": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 16,
+        "$description": "Valor de tamanho de fundação: 4. Token primitivo — prefira semantic/size em componentes."
+      },
+      "5": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 18,
+        "$description": "Valor de tamanho de fundação: 5. Token primitivo — prefira semantic/size em componentes."
+      },
+      "6": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 20,
+        "$description": "Valor de tamanho de fundação: 6. Token primitivo — prefira semantic/size em componentes."
+      },
+      "7": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 24,
+        "$description": "Valor de tamanho de fundação: 7. Token primitivo — prefira semantic/size em componentes."
+      },
+      "8": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 28,
+        "$description": "Valor de tamanho de fundação: 8. Token primitivo — prefira semantic/size em componentes."
+      },
+      "9": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 32,
+        "$description": "Valor de tamanho de fundação: 9. Token primitivo — prefira semantic/size em componentes."
+      },
+      "10": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 36,
+        "$description": "Valor de tamanho de fundação: 10. Token primitivo — prefira semantic/size em componentes."
+      },
+      "11": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 40,
+        "$description": "Valor de tamanho de fundação: 11. Token primitivo — prefira semantic/size em componentes."
+      },
+      "12": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 44,
+        "$description": "Valor de tamanho de fundação: 12. Token primitivo — prefira semantic/size em componentes."
+      },
+      "13": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 48,
+        "$description": "Valor de tamanho de fundação: 13. Token primitivo — prefira semantic/size em componentes."
+      },
+      "icon": {
+        "xs": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 12
+        },
+        "sm": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 16
+        },
+        "md": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 20
+        },
+        "lg": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 24
+        },
+        "xl": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 32
+        },
+        "2xl": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 40
+        },
+        "3xl": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 48
+        },
+        "4xl": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 56
+        },
+        "5xl": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 64
+        },
+        "6xl": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 80
+        }
+      }
+    },
+    "breakpoint": {
+      "sm": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 480,
+        "$description": "Token de fundação (core): breakpoint / sm. Largura mínima de viewport em px. Consumido apenas pelo build (gera @media) — nunca emitido como CSS custom property, pois media queries não podem usar var()."
+      },
+      "md": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 768,
+        "$description": "Token de fundação (core): breakpoint / md. Largura mínima de viewport em px. Consumido apenas pelo build (gera @media) — nunca emitido como CSS custom property, pois media queries não podem usar var()."
+      },
+      "lg": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 1024,
+        "$description": "Token de fundação (core): breakpoint / lg. Largura mínima de viewport em px. Consumido apenas pelo build (gera @media) — nunca emitido como CSS custom property, pois media queries não podem usar var()."
+      },
+      "xl": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 1280,
+        "$description": "Token de fundação (core): breakpoint / xl. Largura mínima de viewport em px. Consumido apenas pelo build (gera @media) — nunca emitido como CSS custom property, pois media queries não podem usar var()."
+      }
+    },
+    "motion": {
+      "duration": {
+        "instant": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 0,
+          "$description": "Token de fundação (core): motion / duration / instant. Duração em ms. Valor primitivo — prefira tokens semânticos em componentes."
+        },
+        "fast": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 150,
+          "$description": "Token de fundação (core): motion / duration / fast. Duração em ms. Valor primitivo — prefira tokens semânticos em componentes."
+        },
+        "normal": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 250,
+          "$description": "Token de fundação (core): motion / duration / normal. Duração em ms. Valor primitivo — prefira tokens semânticos em componentes."
+        },
+        "slow": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 400,
+          "$description": "Token de fundação (core): motion / duration / slow. Duração em ms. Valor primitivo — prefira tokens semânticos em componentes."
+        },
+        "slower": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 600,
+          "$description": "Token de fundação (core): motion / duration / slower. Duração em ms. Valor primitivo — prefira tokens semânticos em componentes."
+        },
+        "slowest": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 900,
+          "$description": "Token de fundação (core): motion / duration / slowest. Duração em ms. Uso: reveals editoriais grandes (scroll reveal, text reveal). Valor primitivo — prefira tokens semânticos em componentes."
+        }
+      },
+      "easing": {
+        "linear": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "text",
+          "$value": "linear",
+          "$description": "Token de fundação (core): motion / easing / linear. Curva de aceleração CSS. Valor primitivo — prefira tokens semânticos em componentes."
+        },
+        "standard": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "text",
+          "$value": "cubic-bezier(0.4, 0, 0.2, 1)",
+          "$description": "Token de fundação (core): motion / easing / standard. Curva de aceleração CSS para transições de entrada e saída. Valor primitivo — prefira tokens semânticos em componentes."
+        },
+        "decelerate": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "text",
+          "$value": "cubic-bezier(0, 0, 0.2, 1)",
+          "$description": "Token de fundação (core): motion / easing / decelerate. Curva de aceleração CSS para elementos entrando em tela. Valor primitivo — prefira tokens semânticos em componentes."
+        },
+        "accelerate": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "text",
+          "$value": "cubic-bezier(0.4, 0, 1, 1)",
+          "$description": "Token de fundação (core): motion / easing / accelerate. Curva de aceleração CSS para elementos saindo de tela. Valor primitivo — prefira tokens semânticos em componentes."
+        },
+        "emphasized": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "text",
+          "$value": "cubic-bezier(0.22, 1, 0.36, 1)",
+          "$description": "Token de fundação (core): motion / easing / emphasized. Curva de aceleração CSS pra motion editorial/grande (reveals, hero) — mais suave e expressiva que as easings utilitárias de UI (standard/decelerate/accelerate). Valor primitivo — prefira tokens semânticos em componentes."
+        }
+      }
+    },
+    "shadow": {
+      "elevation": {
+        "subtle": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "text",
+          "$value": "0 1px 3px rgba(0, 0, 0, 0.4)",
+          "$description": "Token de fundação (core): shadow / elevation / subtle. Box-shadow completo (não só cor) pra elevação leve de cards/painéis. Valor primitivo — prefira tokens semânticos em componentes."
+        },
+        "mid": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "text",
+          "$value": "0 4px 16px rgba(0, 0, 0, 0.5)",
+          "$description": "Token de fundação (core): shadow / elevation / mid. Box-shadow completo pra elevação mais pronunciada (painéis flutuantes, dropdowns). Valor primitivo — prefira tokens semânticos em componentes."
+        }
+      }
+    }
+  }
+}

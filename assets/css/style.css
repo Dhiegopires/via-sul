@@ -1,0 +1,841 @@
+/* ==========================================================================
+   Via Sul — style.css
+   Rústico-premium, quase monocromático. Mobile-first. Tokens from
+   DESIGN_SYSTEM.md. No frameworks, no build step.
+   ========================================================================== */
+
+:root {
+  --color-ink:           #14110E;
+  --color-ink-soft:      #221C16;
+  --color-bone:          #F1ECE2;
+  --color-bone-dim:      #E4DCCB;
+  --color-paper:         #FAF8F3;
+
+  --color-text:          #1C1712;
+  --color-text-muted:    #5B5346;
+  --color-text-on-ink:       #F1ECE2;
+  --color-text-on-ink-muted: #A79C8A;
+
+  --color-brass:         #A9793F;
+  --color-brass-bright:  #C4995F;
+
+  --color-success:       #4B7A52;
+  --color-success-on-ink: #8FC49A;
+  --color-border:        #D8CEB8;
+  --color-border-on-ink: #3A342B;
+  --color-focus:         #1B5FA8;
+
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Libre Franklin', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --text-xs:   0.8125rem;
+  --text-sm:   0.9375rem;
+  --text-base: 1.0625rem;
+  --text-lg:   1.25rem;
+  --text-xl:   1.75rem;
+  --text-2xl:  2.25rem;
+  --text-3xl:  3rem;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+
+  --radius-sm: 4px;
+  --radius-md: 4px;
+
+  --container-max: 1200px;
+  --container-padding: var(--space-4);
+
+  --contact-bar-height: 60px;
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --text-3xl: 5rem;
+    --text-2xl: 2.75rem;
+  }
+}
+
+/* ---- Reset ---- */
+*, *::before, *::after { box-sizing: border-box; }
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--space-16);
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+body {
+  margin: 0;
+  background: var(--color-bone);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-bottom: var(--contact-bar-height);
+}
+img { max-width: 100%; display: block; }
+h1, h2, h3 {
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
+  line-height: 1.08;
+  margin: 0 0 var(--space-4);
+  color: inherit;
+  font-weight: 640;
+}
+h1 { font-size: var(--text-3xl); letter-spacing: -0.01em; }
+h2 { font-size: var(--text-2xl); }
+h3 { font-size: var(--text-lg); font-weight: 600; }
+p { margin: 0 0 var(--space-4); color: var(--color-text-muted); }
+a { color: inherit; }
+ul { margin: 0; padding: 0; list-style: none; }
+dl { margin: 0; }
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--color-paper);
+  color: var(--color-text);
+  padding: var(--space-3) var(--space-4);
+  z-index: 100;
+}
+.skip-link:focus { left: 0; }
+
+.container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-text-muted);
+  margin: 0 0 var(--space-4);
+}
+.eyebrow::before {
+  content: '';
+  display: inline-block;
+  width: 28px;
+  height: 1px;
+  background: var(--color-brass);
+}
+.eyebrow--on-ink { color: var(--color-text-on-ink-muted); }
+.eyebrow__num {
+  font-family: var(--font-display);
+  font-style: italic;
+  color: var(--color-brass);
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* ---- Scroll reveal ---- */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.reveal.in { opacity: 1; transform: none; }
+.reveal.d1 { transition-delay: 0.08s; }
+.reveal.d2 { transition-delay: 0.16s; }
+.reveal.d3 { transition-delay: 0.24s; }
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; transition: none; }
+}
+
+/* ---- Ember texture, dark sections only (hero excluded, it has the photo) ---- */
+.happy-hour,
+.cardapio-cta,
+.site-footer {
+  background-image: radial-gradient(circle at 1px 1px, rgba(169, 121, 63, 0.35) 1px, transparent 0);
+  background-size: 24px 24px;
+  background-color: var(--color-ink);
+}
+
+/* ---- Buttons ---- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  padding: var(--space-4) var(--space-8);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: var(--text-base);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  min-height: 48px;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+.btn-primary {
+  background: var(--color-ink);
+  color: var(--color-text-on-ink);
+  border-bottom-color: var(--color-ink);
+}
+.btn-primary:hover {
+  background: var(--color-ink-soft);
+  border-bottom-color: var(--color-brass);
+}
+.btn-secondary {
+  background: transparent;
+  color: var(--color-text);
+  border-color: var(--color-text);
+}
+.btn-secondary:hover { border-color: var(--color-brass); color: var(--color-brass); }
+.btn-on-ink {
+  color: var(--color-text-on-ink);
+  border-color: var(--color-text-on-ink-muted);
+}
+.btn-on-ink:hover { border-color: var(--color-brass); color: var(--color-brass-bright); }
+
+.link-inline {
+  display: inline-block;
+  font-weight: 600;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+}
+
+/* ---- Trust badge ---- */
+.rating-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-1) var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-text);
+  white-space: nowrap;
+}
+.rating-badge--on-ink {
+  border-color: var(--color-border-on-ink);
+  color: var(--color-text-on-ink);
+}
+.rating-badge svg { color: var(--color-brass); flex-shrink: 0; }
+
+.rating-badge--large {
+  padding: var(--space-3) var(--space-4);
+  font-size: var(--text-sm);
+  gap: var(--space-3);
+}
+.rating-badge--large strong {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 600;
+}
+
+/* ---- Header ---- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--color-bone);
+  border-bottom: 1px solid var(--color-border);
+}
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding-top: var(--space-3);
+  padding-bottom: var(--space-3);
+}
+.logo {
+  font-family: var(--font-display);
+  font-weight: 640;
+  font-size: var(--text-lg);
+  color: var(--color-text);
+  text-decoration: none;
+  flex-shrink: 0;
+}
+.main-nav { display: none; }
+.main-nav a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: var(--space-6);
+}
+.main-nav a[aria-current="page"] { color: var(--color-brass); }
+
+.header-contact {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+.header-contact__link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+@media (min-width: 640px) {
+  .main-nav { display: block; }
+}
+
+/* ---- Hero ----
+   Not a 50/50 split card (that's the generic template shape). The photo is
+   the whole section; text sits on top of it. Mobile keeps them stacked
+   (no overlap, so the CTA is never a vh-guessing game) — the overlay/bleed
+   treatment is a desktop-only layer, per the asymmetry rule in
+   DESIGN_SYSTEM.md. */
+.hero {
+  position: relative;
+  color: var(--color-text-on-ink);
+}
+.hero__photo {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background:
+    radial-gradient(120% 100% at 30% 20%, rgba(196, 153, 95, 0.35) 0%, transparent 55%),
+    linear-gradient(155deg, var(--color-ink-soft) 0%, var(--color-ink) 70%);
+}
+.hero__scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 45%, var(--color-ink) 96%);
+}
+.hero__photo-caption {
+  position: absolute;
+  left: var(--container-padding);
+  right: var(--container-padding);
+  bottom: var(--space-5);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+.hero__photo-caption strong {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 500;
+  font-size: var(--text-xl);
+  color: var(--color-text-on-ink);
+}
+.hero__photo-caption span {
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-on-ink-muted);
+}
+.hero__content {
+  padding: var(--space-8) var(--container-padding) var(--space-16);
+  background: var(--color-ink);
+}
+.hero__lead {
+  font-size: var(--text-lg);
+  color: var(--color-text-on-ink-muted);
+  max-width: 40ch;
+}
+
+/* Answers the real objection ("será que tá aberto agora") with a live,
+   computed status instead of a static hours list the visitor has to do
+   the math on themselves. Never guesses — see main.js, same hours as the
+   footer/schema. */
+.open-status {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin: 0 0 var(--space-4);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-text-muted);
+}
+.open-status::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: currentColor;
+  flex-shrink: 0;
+}
+.open-status--on-ink { color: var(--color-text-on-ink-muted); }
+.open-status.is-open { color: var(--color-success); }
+.open-status--on-ink.is-open { color: var(--color-success-on-ink); }
+
+.hero__actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+.hero__actions .btn { width: 100%; }
+
+@media (min-width: 640px) {
+  .hero__actions { flex-direction: row; }
+  .hero__actions .btn { width: auto; }
+}
+
+/* Desktop: break the box. The photo fills the entire section; the text
+   overlays it at the bottom edge instead of living in a column beside it. */
+@media (min-width: 1024px) {
+  .hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+  }
+  .hero__photo {
+    position: absolute;
+    inset: 0;
+    aspect-ratio: auto;
+  }
+  .hero__scrim {
+    background: linear-gradient(to top, var(--color-ink) 0%, rgba(20, 17, 14, 0.55) 45%, rgba(20, 17, 14, 0.1) 75%);
+  }
+  .hero__photo-caption {
+    left: auto;
+    right: var(--container-padding);
+    bottom: var(--space-8);
+    text-align: right;
+    max-width: 32ch;
+  }
+  .hero__content {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding: 0 var(--container-padding) var(--space-16);
+    background: none;
+  }
+  .hero__lead { max-width: 46ch; }
+}
+
+/* ---- Proposta ----
+   No centered card. The quote breaks out of the container and runs the full
+   width of the viewport, left-aligned, at a scale a "card" could never hold
+   — that's the point: scale and edge-bleed replace the box as the signal. */
+.proposta {
+  padding: var(--space-24) 0;
+  overflow: hidden;
+}
+.proposta__quote {
+  margin: var(--space-4) 0 var(--space-8);
+  padding: 0 var(--container-padding);
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 500;
+  font-size: clamp(2rem, 7vw, 4.5rem);
+  line-height: 1.15;
+  color: var(--color-text);
+  max-width: 22ch;
+}
+.proposta p.proposta__support {
+  max-width: 50ch;
+  color: var(--color-text-muted);
+}
+
+@media (min-width: 1024px) {
+  .proposta__quote { padding-left: var(--space-32); }
+  .proposta .container:last-child { padding-left: var(--space-32); }
+}
+
+/* ---- Cardápio destaque ----
+   Not a heading-row-then-list stack. Narrow intro column carries a large
+   faded numeral as the visual anchor (standing in for the second photo we
+   don't have yet, without faking another empty image box); the list column
+   is offset downward on desktop so nothing lines up in a tidy grid. */
+.cardapio-destaque {
+  padding: var(--space-24) 0;
+  background: var(--color-bone-dim);
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  overflow: hidden;
+}
+.cardapio-destaque__grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+.cardapio-destaque__intro {
+  position: relative;
+}
+.cardapio-destaque__intro h2 { margin-bottom: var(--space-4); }
+.cardapio-destaque__mark {
+  display: none;
+}
+
+.prato-list { display: flex; flex-direction: column; }
+.prato-item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-6) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+.prato-item:first-child { padding-top: 0; }
+.prato-item:last-child { border-bottom: 0; }
+.prato-item--hero h3 { font-size: var(--text-xl); }
+.prato-item__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-4);
+}
+.prato-item__head h3 { margin: 0; }
+.prato-item p { margin: 0; max-width: 60ch; }
+
+@media (min-width: 1024px) {
+  .prato-item {
+    flex-direction: row;
+    align-items: baseline;
+    gap: var(--space-8);
+  }
+  .prato-item__head { flex: 0 0 260px; }
+  .prato-item p { flex: 1; }
+
+  .cardapio-destaque__grid {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: var(--space-16);
+  }
+  .cardapio-destaque__intro {
+    flex: 0 0 300px;
+  }
+  .prato-list {
+    flex: 1;
+    margin-top: var(--space-16);
+  }
+  .cardapio-destaque__mark {
+    display: block;
+    position: absolute;
+    top: -3rem;
+    left: -1rem;
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 9rem;
+    line-height: 1;
+    color: var(--color-brass);
+    opacity: 0.16;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .cardapio-destaque__intro > :not(.cardapio-destaque__mark) {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+/* ---- Prova social ---- */
+.prova-social {
+  padding: var(--space-24) 0;
+}
+.prova-social__head {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  align-items: flex-start;
+  margin-bottom: var(--space-12);
+}
+
+.review-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-12);
+}
+.review-card { margin: 0; }
+.review-card q {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: var(--text-xl);
+  color: var(--color-text);
+  quotes: none;
+  display: block;
+  line-height: 1.35;
+}
+.review-card cite {
+  display: block;
+  margin-top: var(--space-4);
+  font-size: var(--text-xs);
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-text-muted);
+}
+
+@media (min-width: 768px) {
+  .review-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+.prova-social__cta { margin-top: var(--space-8); }
+
+/* ---- Localização ----
+   Not two equal columns. Mobile: map on top, card below, plain stack (safe,
+   simple). Desktop: map becomes the full-bleed background of the whole
+   section, and the info card floats on top of it at one edge with a real
+   shadow — a location card sitting on a map, not a map sitting in a column. */
+.localizacao {
+  position: relative;
+  background: var(--color-bone-dim);
+  border-top: 1px solid var(--color-border);
+}
+.localizacao__container {
+  padding-top: var(--space-8);
+  padding-bottom: var(--space-16);
+}
+.localizacao__card {
+  max-width: 460px;
+}
+.localizacao__row {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+}
+.localizacao__icon {
+  flex-shrink: 0;
+  color: var(--color-brass);
+  margin-top: 3px;
+}
+.horario {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--space-1) var(--space-4);
+  margin: var(--space-6) 0 var(--space-8);
+  font-size: var(--text-sm);
+}
+.horario dt {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-weight: 600;
+  color: var(--color-text);
+}
+.horario dd { margin: 0; }
+.mapa-embed {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border: 0;
+  border-bottom: 1px solid var(--color-border);
+  filter: grayscale(0.4) contrast(1.05);
+}
+
+@media (min-width: 1024px) {
+  .localizacao { min-height: 620px; }
+  .mapa-embed {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: auto;
+    border-bottom: 0;
+  }
+  .localizacao__container {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .localizacao__card {
+    background: var(--color-bone);
+    border: 1px solid var(--color-border);
+    padding: var(--space-8);
+    box-shadow: 0 24px 48px -16px rgba(20, 17, 14, 0.35);
+  }
+}
+
+/* ---- Happy hour ---- */
+.happy-hour {
+  padding: var(--space-24) 0;
+  color: var(--color-text-on-ink);
+  text-align: center;
+}
+.happy-hour p { color: var(--color-text-on-ink-muted); }
+.happy-hour .container { max-width: 640px; }
+.happy-hour .eyebrow { justify-content: center; }
+
+/* ---- Cardápio page ---- */
+.cardapio-header {
+  padding: var(--space-12) 0 var(--space-4);
+}
+.cardapio-nota {
+  border-left: 2px solid var(--color-brass);
+  padding: var(--space-1) var(--space-4);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-6);
+}
+.cardapio-jumpnav {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+.cardapio-jumpnav__group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+.cardapio-jumpnav__label {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin: 0;
+  font-size: var(--text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-brass);
+}
+.cardapio-jumpnav__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-4);
+}
+.cardapio-jumpnav a {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-muted);
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
+}
+.cardapio-jumpnav a:hover,
+.cardapio-jumpnav a:focus-visible {
+  color: var(--color-text);
+  border-bottom-color: var(--color-brass);
+}
+
+@media (min-width: 768px) {
+  .cardapio-jumpnav { flex-direction: row; gap: var(--space-8); }
+}
+.cardapio-categoria {
+  padding: var(--space-8) 0;
+  border-top: 1px solid var(--color-border);
+}
+.cardapio-categoria__nota {
+  font-size: var(--text-sm);
+  font-style: italic;
+  margin-bottom: var(--space-6);
+}
+.item-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+.item {
+  padding-bottom: var(--space-4);
+  border-bottom: 1px solid var(--color-border);
+}
+.item:last-child { border-bottom: 0; padding-bottom: 0; }
+.item__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-4);
+}
+.item__head h3 { margin: 0; }
+.item__preco {
+  font-weight: 600;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.item p { margin: var(--space-1) 0 0; }
+
+.cardapio-cta {
+  padding: var(--space-24) 0;
+  color: var(--color-text-on-ink);
+  text-align: center;
+}
+.cardapio-cta h2 { color: var(--color-text-on-ink); }
+.cardapio-cta__inner { max-width: 640px; margin: 0 auto; }
+.cardapio-cta .hero__actions { align-items: stretch; }
+
+@media (min-width: 640px) {
+  .cardapio-cta .hero__actions { justify-content: center; }
+}
+
+/* ---- Footer ---- */
+.site-footer {
+  padding: var(--space-8) 0;
+  color: var(--color-text-on-ink-muted);
+  border-top: 1px solid var(--color-border-on-ink);
+}
+.footer__inner {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+.site-footer a { color: var(--color-text-on-ink); }
+.footer__brand {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  color: var(--color-text-on-ink);
+  margin-bottom: var(--space-2);
+}
+.site-footer p { color: var(--color-text-on-ink-muted); }
+
+@media (min-width: 640px) {
+  .footer__inner { flex-direction: row; justify-content: space-between; }
+}
+
+/* ---- Fixed mobile contact bar ---- */
+.contact-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 30;
+  display: flex;
+  height: var(--contact-bar-height);
+  padding-bottom: env(safe-area-inset-bottom);
+  background: var(--color-ink);
+  border-top: 1px solid var(--color-border-on-ink);
+}
+.contact-bar__btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  font-weight: 600;
+  text-decoration: none;
+  min-height: 56px;
+  color: var(--color-text-on-ink);
+}
+.contact-bar__btn:first-child { border-right: 1px solid var(--color-border-on-ink); }
+.contact-bar__btn svg { color: var(--color-brass); }
+
+@media (min-width: 1024px) {
+  .contact-bar { display: none; }
+  body { padding-bottom: 0; }
+}

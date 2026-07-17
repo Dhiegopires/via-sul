@@ -1,0 +1,21 @@
+{
+  "tokenSetOrder": [
+    "semantic/color/light",
+    "semantic/color/dark",
+    "palette/base",
+    "brand/vellumwire",
+    "brand/MedMe",
+    "brand/Wireframe",
+    "brand/Fiter",
+    "brand/Instivo",
+    "core/base",
+    "semantic/type/desktop",
+    "semantic/type/tablet",
+    "semantic/type/mobile",
+    "semantic/size/desktop",
+    "semantic/size/tablet",
+    "semantic/size/mobile",
+    "semantic/motion/base",
+    "semantic/shadow/base"
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "semantic": {
+    "motion": {
+      "duration": {
+        "fast": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-motion-duration-fast)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.motion.duration.fast}",
+          "$description": "Token semântico de motion: duration / fast. Duração de transições rápidas (hover, foco, micro-interações). Aplicar em transition-duration."
+        },
+        "normal": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-motion-duration-normal)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.motion.duration.normal}",
+          "$description": "Token semântico de motion: duration / normal. Duração padrão de transições de UI (abrir/fechar dropdown, fade). Aplicar em transition-duration."
+        },
+        "slow": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-motion-duration-slow)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.motion.duration.slow}",
+          "$description": "Token semântico de motion: duration / slow. Duração de transições mais perceptíveis (modais, drawers). Aplicar em transition-duration."
+        },
+        "slower": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-motion-duration-slower)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.motion.duration.slower}",
+          "$description": "Token semântico de motion: duration / slower. Duração pra transições mais perceptíveis ainda que slow (painéis grandes). Aplicar em transition-duration."
+        },
+        "slowest": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-motion-duration-slowest)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.motion.duration.slowest}",
+          "$description": "Token semântico de motion: duration / slowest. Duração de reveals editoriais grandes (scroll reveal, text reveal). Aplicar em transition-duration."
+        }
+      },
+      "easing": {
+        "standard": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-motion-easing-standard)"
+            }
+          },
+          "$type": "text",
+          "$value": "{brand.motion.easing.standard}",
+          "$description": "Token semântico de motion: easing / standard. Curva padrão para a maioria das transições de UI. Aplicar em transition-timing-function."
+        },
+        "decelerate": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-motion-easing-decelerate)"
+            }
+          },
+          "$type": "text",
+          "$value": "{brand.motion.easing.decelerate}",
+          "$description": "Token semântico de motion: easing / decelerate. Curva para elementos entrando em tela (enter). Aplicar em transition-timing-function."
+        },
+        "accelerate": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-motion-easing-accelerate)"
+            }
+          },
+          "$type": "text",
+          "$value": "{brand.motion.easing.accelerate}",
+          "$description": "Token semântico de motion: easing / accelerate. Curva para elementos saindo de tela (exit). Aplicar em transition-timing-function."
+        },
+        "emphasized": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-motion-easing-emphasized)"
+            }
+          },
+          "$type": "text",
+          "$value": "{brand.motion.easing.emphasized}",
+          "$description": "Token semântico de motion: easing / emphasized. Curva pra motion editorial/grande (scroll reveal, text reveal, beam) — mais expressiva que standard/decelerate/accelerate. Aplicar em transition-timing-function."
+        }
+      }
+    }
+  }
+}

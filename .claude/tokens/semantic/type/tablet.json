@@ -1,0 +1,974 @@
+{
+  "semantic": {
+    "type": {
+      "family": {
+        "display": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_FAMILY"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-type-family-display)"
+            }
+          },
+          "$type": "text",
+          "$value": "{brand.font.family.display}",
+          "$description": "Token tipográfico semântico: family / display. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+        },
+        "ui": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_FAMILY"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-type-family-ui)"
+            }
+          },
+          "$type": "text",
+          "$value": "{brand.font.family.ui}",
+          "$description": "Token tipográfico semântico: family / ui. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+        },
+        "body": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_FAMILY"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-type-family-body)"
+            }
+          },
+          "$type": "text",
+          "$value": "{brand.font.family.body}",
+          "$description": "Token tipográfico semântico: family / body. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+        },
+        "Secondary": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_FAMILY"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-type-family-secondary)"
+            }
+          },
+          "$type": "text",
+          "$value": "{brand.font.family.secondary}",
+          "$description": "Token tipográfico semântico: family / Secondary. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+        },
+        "mono": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_FAMILY"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-type-family-mono)"
+            }
+          },
+          "$type": "text",
+          "$value": "{brand.font.family.mono}",
+          "$description": "Token tipográfico semântico: family / mono. Define a propriedade de texto a ser usada conforme o papel — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+        }
+      },
+      "size": {
+        "display": {
+          "2xl": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FONT_SIZE"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-size-display-2xl)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.size.display.2xl}",
+            "$description": "Token tipográfico semântico: size / display / 2xl. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "xl": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FONT_SIZE"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-size-display-xl)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.size.display.xl}",
+            "$description": "Token tipográfico semântico: size / display / xl. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "lg": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FONT_SIZE"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-size-display-lg)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.size.display.lg}",
+            "$description": "Token tipográfico semântico: size / display / lg. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "md": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FONT_SIZE"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-size-display-md)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.size.display.md}",
+            "$description": "Token tipográfico semântico: size / display / md. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "sm": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FONT_SIZE"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-size-display-sm)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.size.display.sm}",
+            "$description": "Token tipográfico semântico: size / display / sm. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "xs": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FONT_SIZE"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-size-display-xs)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.size.display.xs}",
+            "$description": "Token tipográfico semântico: size / display / xs. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          }
+        },
+        "body": {
+          "2xl": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FONT_SIZE"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-size-body-2xl)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.size.body.2xl}",
+            "$description": "Token tipográfico semântico: size / body / 2xl. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "xl": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FONT_SIZE"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-size-body-xl)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.size.body.xl}",
+            "$description": "Token tipográfico semântico: size / body / xl. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "lg": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FONT_SIZE"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-size-body-lg)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.size.body.lg}",
+            "$description": "Token tipográfico semântico: size / body / lg. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "md": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FONT_SIZE"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-size-body-md)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.size.body.md}",
+            "$description": "Token tipográfico semântico: size / body / md. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "sm": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FONT_SIZE"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-size-body-sm)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.size.body.sm}",
+            "$description": "Token tipográfico semântico: size / body / sm. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "xs": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FONT_SIZE"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-size-body-xs)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.size.body.xs}",
+            "$description": "Token tipográfico semântico: size / body / xs. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          }
+        },
+        "ui": {
+          "xs": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FONT_SIZE"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-size-ui-xs)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.size.ui.xs}",
+            "$description": "Token tipográfico semântico: size / ui / xs. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "sm": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FONT_SIZE"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-size-ui-sm)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.size.ui.sm}",
+            "$description": "Token tipográfico semântico: size / ui / sm. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "md": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FONT_SIZE"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-size-ui-md)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.size.ui.md}",
+            "$description": "Token tipográfico semântico: size / ui / md. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "lg": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FONT_SIZE"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-size-ui-lg)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.size.ui.lg}",
+            "$description": "Token tipográfico semântico: size / ui / lg. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "xl": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FONT_SIZE"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-size-ui-xl)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.size.body.xl}",
+            "$description": "Token tipográfico semântico: size / ui / xl. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "2xl": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FONT_SIZE"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-size-ui-2xl)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.size.ui.2xl}",
+            "$description": "Token tipográfico semântico: size / ui / 2xl. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          }
+        },
+        "mono": {
+          "xs": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FONT_SIZE"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-size-mono-xs)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.size.mono.xs}",
+            "$description": "Token tipográfico semântico: size / mono / xs. Piso de 12px mantido por legibilidade. Define a propriedade de texto a ser usada conforme o papel e a densidade — não usar valores tipográficos fixos diretamente em componentes."
+          },
+          "sm": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FONT_SIZE"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-size-mono-sm)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.size.mono.sm}",
+            "$description": "Token tipográfico semântico: size / mono / sm. Define a propriedade de texto a ser usada conforme o papel e a densidade — não usar valores tipográficos fixos diretamente em componentes."
+          }
+        }
+      },
+      "line": {
+        "display": {
+          "xs": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LINE_HEIGHT"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-line-display-xs)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.line.display.xs}",
+            "$description": "Token tipográfico semântico: line / display / xs. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "sm": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LINE_HEIGHT"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-line-display-sm)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.line.display.sm}",
+            "$description": "Token tipográfico semântico: line / display / sm. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "md": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LINE_HEIGHT"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-line-display-md)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.line.display.md}",
+            "$description": "Token tipográfico semântico: line / display / md. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "lg": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LINE_HEIGHT"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-line-display-lg)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.line.display.lg}",
+            "$description": "Token tipográfico semântico: line / display / lg. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "xl": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LINE_HEIGHT"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-line-display-xl)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.line.display.xl}",
+            "$description": "Token tipográfico semântico: line / display / xl. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "2xl": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LINE_HEIGHT"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-line-display-2xl)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.line.display.2xl}",
+            "$description": "Token tipográfico semântico: line / display / 2xl. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          }
+        },
+        "body": {
+          "xs": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LINE_HEIGHT"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-line-body-xs)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.line.body.xs}",
+            "$description": "Token tipográfico semântico: line / body / xs. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "sm": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LINE_HEIGHT"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-line-body-sm)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.line.body.sm}",
+            "$description": "Token tipográfico semântico: line / body / sm. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "md": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LINE_HEIGHT"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-line-body-md)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.line.body.md}",
+            "$description": "Token tipográfico semântico: line / body / md. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "lg": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LINE_HEIGHT"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-line-body-lg)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.line.body.lg}",
+            "$description": "Token tipográfico semântico: line / body / lg. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "xl": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LINE_HEIGHT"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-line-body-xl)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.line.body.xl}",
+            "$description": "Token tipográfico semântico: line / body / xl. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "2xl": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LINE_HEIGHT"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-line-body-2xl)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.line.body.2xl}",
+            "$description": "Token tipográfico semântico: line / body / 2xl. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          }
+        },
+        "ui": {
+          "xs": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LINE_HEIGHT"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-line-ui-xs)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.line.ui.xs}",
+            "$description": "Token tipográfico semântico: line / ui / xs. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "sm": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LINE_HEIGHT"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-line-ui-sm)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.line.ui.sm}",
+            "$description": "Token tipográfico semântico: line / ui / sm. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "md": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LINE_HEIGHT"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-line-ui-md)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.line.ui.md}",
+            "$description": "Token tipográfico semântico: line / ui / md. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "lg": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LINE_HEIGHT"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-line-ui-lg)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.line.ui.lg}",
+            "$description": "Token tipográfico semântico: line / ui / lg. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "xl": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LINE_HEIGHT"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-line-ui-xl)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.line.ui.xl}",
+            "$description": "Token tipográfico semântico: line / ui / xl. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "2xl": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LINE_HEIGHT"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-line-ui-2xl)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.line.ui.2xl}",
+            "$description": "Token tipográfico semântico: line / ui / 2xl. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          }
+        }
+      },
+      "tracking": {
+        "display": {
+          "xs": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LETTER_SPACING"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-tracking-display-xs)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.tracking.display.xs}",
+            "$description": "Token tipográfico semântico: tracking / display / xs. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "sm": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LETTER_SPACING"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-tracking-display-sm)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.tracking.display.sm}",
+            "$description": "Token tipográfico semântico: tracking / display / sm. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "md": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LETTER_SPACING"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-tracking-display-md)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.tracking.display.md}",
+            "$description": "Token tipográfico semântico: tracking / display / md. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "lg": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LETTER_SPACING"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-tracking-display-lg)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.tracking.display.lg}",
+            "$description": "Token tipográfico semântico: tracking / display / lg. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "xl": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LETTER_SPACING"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-tracking-display-xl)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.tracking.display.xl}",
+            "$description": "Token tipográfico semântico: tracking / display / xl. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "2xl": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LETTER_SPACING"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-tracking-display-2xl)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.tracking.display.2xl}",
+            "$description": "Token tipográfico semântico: tracking / display / 2xl. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          }
+        },
+        "body": {
+          "xs": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LETTER_SPACING"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-tracking-body-xs)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.tracking.body.xs}",
+            "$description": "Token tipográfico semântico: tracking / body / xs. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "sm": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LETTER_SPACING"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-tracking-body-sm)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.tracking.body.sm}",
+            "$description": "Token tipográfico semântico: tracking / body / sm. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "md": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LETTER_SPACING"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-tracking-body-md)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.tracking.body.md}",
+            "$description": "Token tipográfico semântico: tracking / body / md. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "lg": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LETTER_SPACING"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-tracking-body-lg)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.tracking.body.lg}",
+            "$description": "Token tipográfico semântico: tracking / body / lg. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "xl": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LETTER_SPACING"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-tracking-body-xl)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.tracking.body.xl}",
+            "$description": "Token tipográfico semântico: tracking / body / xl. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "2xl": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LETTER_SPACING"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-tracking-body-2xl)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.tracking.body.2xl}",
+            "$description": "Token tipográfico semântico: tracking / body / 2xl. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          }
+        },
+        "ui": {
+          "xs": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LETTER_SPACING"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-tracking-ui-xs)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.tracking.ui.xs}",
+            "$description": "Token tipográfico semântico: tracking / ui / xs. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "sm": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LETTER_SPACING"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-tracking-ui-sm)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.tracking.ui.sm}",
+            "$description": "Token tipográfico semântico: tracking / ui / sm. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "md": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LETTER_SPACING"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-tracking-ui-md)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.tracking.ui.md}",
+            "$description": "Token tipográfico semântico: tracking / ui / md. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "lg": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LETTER_SPACING"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-tracking-ui-lg)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.tracking.ui.lg}",
+            "$description": "Token tipográfico semântico: tracking / ui / lg. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "xl": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LETTER_SPACING"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-tracking-ui-xl)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.tracking.ui.xl}",
+            "$description": "Token tipográfico semântico: tracking / ui / xl. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          },
+          "2xl": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "LETTER_SPACING"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-type-tracking-ui-2xl)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.font.tracking.ui.2xl}",
+            "$description": "Token tipográfico semântico: tracking / ui / 2xl. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+          }
+        },
+        "mono": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "LETTER_SPACING"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-type-tracking-mono)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.font.tracking.mono}",
+          "$description": "Token tipográfico semântico: tracking / mono. Tracking largo característico de labels/eyebrows mono em caixa alta. Define a propriedade de texto a ser usada conforme o papel — não usar valores tipográficos fixos diretamente em componentes."
+        }
+      },
+      "weight": {
+        "light": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_WEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-type-weight-light)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.font.weight.light}",
+          "$description": "Token tipográfico semântico: weight / light. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+        },
+        "regular": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_WEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-type-weight-regular)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.font.weight.regular}",
+          "$description": "Token tipográfico semântico: weight / regular. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+        },
+        "medium": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_WEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-type-weight-medium)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.font.weight.medium}",
+          "$description": "Token tipográfico semântico: weight / medium. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+        },
+        "semibold": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_WEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-type-weight-semibold)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.font.weight.semibold}",
+          "$description": "Token tipográfico semântico: weight / semibold. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+        },
+        "bold": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_WEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-type-weight-bold)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.font.weight.bold}",
+          "$description": "Token tipográfico semântico: weight / bold. Define a propriedade de texto (família, peso, tamanho, espaçamento etc.) a ser usada conforme o papel e a densidade indicados pelo nome — não usar valores tipográficos fixos (core/font-*) diretamente em componentes."
+        }
+      }
+    }
+  }
+}

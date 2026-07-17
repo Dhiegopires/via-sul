@@ -1,0 +1,922 @@
+{
+  "semantic": {
+    "size": {
+      "grid": {
+        "container": {
+          "default": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "WIDTH_HEIGHT"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-size-grid-container-default)"
+              }
+            },
+            "$type": "number",
+            "$value": "{core.grid.container.max.default}",
+            "$description": "Token semântico de tamanho/espaçamento: grid / container / default. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+          },
+          "narrow": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "WIDTH_HEIGHT"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-size-grid-container-narrow)"
+              }
+            },
+            "$type": "number",
+            "$value": "{core.grid.container.max.narrow}",
+            "$description": "Token semântico de tamanho/espaçamento: grid / container / narrow. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+          },
+          "wide": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "WIDTH_HEIGHT"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-size-grid-container-wide)"
+              }
+            },
+            "$type": "number",
+            "$value": "{core.grid.container.max.wide}",
+            "$description": "Token semântico de tamanho/espaçamento: grid / container / wide. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+          }
+        },
+        "gutter": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-grid-gutter)"
+            }
+          },
+          "$type": "number",
+          "$value": "{core.space.24}",
+          "$description": "Token semântico de tamanho/espaçamento: grid / gutter. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "margin": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-grid-margin)"
+            }
+          },
+          "$type": "number",
+          "$value": "{core.space.48}",
+          "$description": "Token semântico de tamanho/espaçamento: grid / margin. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "columns": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-grid-columns)"
+            }
+          },
+          "$type": "number",
+          "$value": "{core.space.16}",
+          "$description": "Token semântico de tamanho/espaçamento: grid / columns. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        }
+      },
+      "radius": {
+        "ui": {
+          "card": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "CORNER_RADIUS"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-size-radius-ui-card)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.radius.ui.card}",
+            "$description": "Token semântico de tamanho/espaçamento: radius / ui / card. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+          },
+          "control": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "CORNER_RADIUS"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-size-radius-ui-control)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.radius.ui.control}",
+            "$description": "Token semântico de tamanho/espaçamento: radius / ui / control. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+          },
+          "modal": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "CORNER_RADIUS"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-size-radius-ui-modal)"
+              }
+            },
+            "$type": "number",
+            "$value": "{brand.radius.ui.modal}",
+            "$description": "Token semântico de tamanho/espaçamento: radius / ui / modal. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+          }
+        },
+        "none": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "CORNER_RADIUS"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-radius-none)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.radius.none}",
+          "$description": "Token semântico de tamanho/espaçamento: radius / none. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "xs": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "CORNER_RADIUS"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-radius-xs)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.radius.xs}",
+          "$description": "Token semântico de tamanho/espaçamento: radius / xs. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "sm": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "CORNER_RADIUS"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-radius-sm)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.radius.sm}",
+          "$description": "Token semântico de tamanho/espaçamento: radius / sm. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "md": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "CORNER_RADIUS"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-radius-md)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.radius.md}",
+          "$description": "Token semântico de tamanho/espaçamento: radius / md. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "lg": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "CORNER_RADIUS"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-radius-lg)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.radius.lg}",
+          "$description": "Token semântico de tamanho/espaçamento: radius / lg. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "xl": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "CORNER_RADIUS"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-radius-xl)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.radius.xl}",
+          "$description": "Token semântico de tamanho/espaçamento: radius / xl. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "2xl": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "CORNER_RADIUS"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-radius-2xl)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.radius.2xl}",
+          "$description": "Token semântico de tamanho/espaçamento: radius / 2xl. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "3xl": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "CORNER_RADIUS"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-radius-3xl)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.radius.3xl}",
+          "$description": "Token semântico de tamanho/espaçamento: radius / 3xl. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "pill": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "CORNER_RADIUS"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-radius-pill)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.radius.pill}",
+          "$description": "Token semântico de tamanho/espaçamento: radius / pill. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        }
+      },
+      "borderWidth": {
+        "none": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-borderwidth-none)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.borderWidth.none}",
+          "$description": "Token semântico de tamanho/espaçamento: borderWidth / none. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "hairline": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-borderwidth-hairline)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.borderWidth.hairline}",
+          "$description": "Token semântico de tamanho/espaçamento: borderWidth / hairline. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-borderwidth-default)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.borderWidth.default}",
+          "$description": "Token semântico de tamanho/espaçamento: borderWidth / default. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "strong": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-borderwidth-strong)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.borderWidth.strong}",
+          "$description": "Token semântico de tamanho/espaçamento: borderWidth / strong. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-borderwidth-focus)"
+            }
+          },
+          "$type": "number",
+          "$value": "{core.borderWidth.4}",
+          "$description": "Token semântico de tamanho/espaçamento: borderWidth / focus. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        }
+      },
+      "icon": {
+        "xs": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-icon-xs)"
+            }
+          },
+          "$type": "number",
+          "$value": "{core.size.icon.xs}",
+          "$description": "Token semântico de tamanho/espaçamento: icon / xs. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "sm": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-icon-sm)"
+            }
+          },
+          "$type": "number",
+          "$value": "{core.size.icon.sm}",
+          "$description": "Token semântico de tamanho/espaçamento: icon / sm. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "md": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-icon-md)"
+            }
+          },
+          "$type": "number",
+          "$value": "{core.size.icon.md}",
+          "$description": "Token semântico de tamanho/espaçamento: icon / md. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "lg": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-icon-lg)"
+            }
+          },
+          "$type": "number",
+          "$value": "{core.size.icon.lg}",
+          "$description": "Token semântico de tamanho/espaçamento: icon / lg. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "xl": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-icon-xl)"
+            }
+          },
+          "$type": "number",
+          "$value": "{core.size.icon.xl}",
+          "$description": "Token semântico de tamanho/espaçamento: icon / xl. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "2xl": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-icon-2xl)"
+            }
+          },
+          "$type": "number",
+          "$value": "{core.size.icon.2xl}",
+          "$description": "Token semântico de tamanho/espaçamento: icon / 2xl. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "3xl": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-icon-3xl)"
+            }
+          },
+          "$type": "number",
+          "$value": "{core.size.icon.3xl}",
+          "$description": "Token semântico de tamanho/espaçamento: icon / 3xl. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "4xl": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-icon-4xl)"
+            }
+          },
+          "$type": "number",
+          "$value": "{core.size.icon.4xl}",
+          "$description": "Token semântico de tamanho/espaçamento: icon / 4xl. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "5xl": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-icon-5xl)"
+            }
+          },
+          "$type": "number",
+          "$value": "{core.size.icon.5xl}",
+          "$description": "Token semântico de tamanho/espaçamento: icon / 5xl. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "6xl": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-icon-6xl)"
+            }
+          },
+          "$type": "number",
+          "$value": "{core.size.icon.6xl}",
+          "$description": "Token semântico de tamanho/espaçamento: icon / 6xl. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        }
+      },
+      "gap": {
+        "none": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-gap-none)"
+            }
+          },
+          "$type": "number",
+          "$value": "{core.space.0}",
+          "$description": "Token semântico de tamanho/espaçamento: gap / none. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "sm": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-gap-sm)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.space.sm.tablet}",
+          "$description": "Gap pequeno (8px desktop). Responsivo por breakpoint via brand/space/sm/*. Uso: entre elementos relacionados próximos."
+        },
+        "md": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-gap-md)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.space.md.tablet}",
+          "$description": "Gap médio (16px desktop). Responsivo. Uso: espaçamento padrão entre componentes."
+        },
+        "lg": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-gap-lg)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.space.lg.tablet}",
+          "$description": "Gap grande (24px desktop). Responsivo. Uso: grupos de componentes, seções próximas."
+        },
+        "xl": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-gap-xl)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.space.xl.tablet}",
+          "$description": "Gap extra-grande (32px desktop). Responsivo. Uso: separação entre seções de conteúdo."
+        },
+        "2xl": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-gap-2xl)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.space.2xl.tablet}",
+          "$description": "Gap 2xl (40px desktop). Responsivo. Uso: espaçamento generoso entre blocos de layout."
+        },
+        "3xl": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-gap-3xl)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.space.3xl.tablet}",
+          "$description": "Gap 3xl (48px desktop). Responsivo. Uso: separação de seções em páginas."
+        },
+        "4xl": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-gap-4xl)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.space.4xl.tablet}",
+          "$description": "Gap 4xl (56px desktop). Responsivo. Uso: espaçamento entre seções de hero."
+        },
+        "5xl": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-gap-5xl)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.space.5xl.tablet}",
+          "$description": "Gap 5xl (64px desktop). Responsivo. Uso: espaçamento de layout grande."
+        },
+        "6xl": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-gap-6xl)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.space.6xl.tablet}",
+          "$description": "Gap 6xl (72px desktop). Responsivo. Uso: seções de conteúdo amplo."
+        },
+        "7xl": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-gap-7xl)"
+            }
+          },
+          "$type": "number",
+          "$value": "{brand.space.7xl.tablet}",
+          "$description": "Gap 7xl (80px desktop). Responsivo. Uso: máximo espaçamento entre seções principais."
+        },
+        "ui": {
+          "sm": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "GAP"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-size-gap-ui-sm)"
+              }
+            },
+            "$type": "number",
+            "$value": "{core.space.2}",
+            "$description": "Token semântico de tamanho/espaçamento: gap / ui / sm. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+          },
+          "md": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "GAP"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-size-gap-ui-md)"
+              }
+            },
+            "$type": "number",
+            "$value": "{core.space.4}",
+            "$description": "Token semântico de tamanho/espaçamento: gap / ui / md. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+          },
+          "lg": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "GAP"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-size-gap-ui-lg)"
+              }
+            },
+            "$type": "number",
+            "$value": "{core.space.6}",
+            "$description": "Token semântico de tamanho/espaçamento: gap / ui / lg. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+          },
+          "xl": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "GAP"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-size-gap-ui-xl)"
+              }
+            },
+            "$type": "number",
+            "$value": "{core.space.8}",
+            "$description": "Token semântico de tamanho/espaçamento: gap / ui / xl. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+          },
+          "2xl": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "GAP"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-size-gap-ui-2xl)"
+              }
+            },
+            "$type": "number",
+            "$value": "{core.space.10}",
+            "$description": "Token semântico de tamanho/espaçamento: gap / ui / 2xl. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+          },
+          "3xl": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "GAP"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-size-gap-ui-3xl)"
+              }
+            },
+            "$type": "number",
+            "$value": "{core.space.12}",
+            "$description": "Token semântico de tamanho/espaçamento: gap / ui / 3xl. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+          },
+          "4xl": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "GAP"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-size-gap-ui-4xl)"
+              }
+            },
+            "$type": "number",
+            "$value": "{core.space.14}",
+            "$description": "Token semântico de tamanho/espaçamento: gap / ui / 4xl. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+          },
+          "5xl": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "GAP"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-size-gap-ui-5xl)"
+              }
+            },
+            "$type": "number",
+            "$value": "{core.space.16}",
+            "$description": "Token semântico de tamanho/espaçamento: gap / ui / 5xl. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+          }
+        }
+      },
+      "fine": {
+        "2": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-fine-2)"
+            }
+          },
+          "$type": "number",
+          "$value": "{core.space.2}",
+          "$description": "Token semântico de tamanho/espaçamento: fine / 2. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "4": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-fine-4)"
+            }
+          },
+          "$type": "number",
+          "$value": "{core.space.4}",
+          "$description": "Token semântico de tamanho/espaçamento: fine / 4. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "6": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-fine-6)"
+            }
+          },
+          "$type": "number",
+          "$value": "{core.space.6}",
+          "$description": "Token semântico de tamanho/espaçamento: fine / 6. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "8": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-fine-8)"
+            }
+          },
+          "$type": "number",
+          "$value": "{core.space.8}",
+          "$description": "Token semântico de tamanho/espaçamento: fine / 8. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "10": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-fine-10)"
+            }
+          },
+          "$type": "number",
+          "$value": "{core.space.10}",
+          "$description": "Token semântico de tamanho/espaçamento: fine / 10. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "12": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-fine-12)"
+            }
+          },
+          "$type": "number",
+          "$value": "{core.space.12}",
+          "$description": "Token semântico de tamanho/espaçamento: fine / 12. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "14": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-fine-14)"
+            }
+          },
+          "$type": "number",
+          "$value": "{core.space.14}",
+          "$description": "Token semântico de tamanho/espaçamento: fine / 12. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        }
+      },
+      "ui": {
+        "sm": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-ui-sm)"
+            }
+          },
+          "$type": "number",
+          "$value": "{core.size.9}",
+          "$description": "Token semântico de tamanho/espaçamento: ui / sm. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "md": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-ui-md)"
+            }
+          },
+          "$type": "number",
+          "$value": "{core.size.11}",
+          "$description": "Token semântico de tamanho/espaçamento: ui / md. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "lg": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-ui-lg)"
+            }
+          },
+          "$type": "number",
+          "$value": "{core.size.13}",
+          "$description": "Token semântico de tamanho/espaçamento: ui / lg. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "xs": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-ui-xs)"
+            }
+          },
+          "$type": "number",
+          "$value": "{core.size.7}",
+          "$description": "Token semântico de tamanho/espaçamento: ui / xs. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        },
+        "2xs": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-size-ui-2xs)"
+            }
+          },
+          "$type": "number",
+          "$value": "{core.size.4}",
+          "$description": "Token semântico de tamanho/espaçamento: ui / 2xs. Define a dimensão (ícone, seleção, gap, tipografia etc.) a ser usada conforme o contexto e a densidade indicados pelo nome — prefira este token a valores fixos de core/dimension."
+        }
+      }
+    }
+  }
+}

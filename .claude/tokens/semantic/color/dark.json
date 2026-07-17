@@ -1,0 +1,1866 @@
+{
+  "semantic": {
+    "color": {
+      "foreground": {
+        "error": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-color-foreground-error)"
+            }
+          },
+          "$type": "color",
+          "$value": "{brand.color.error.300}",
+          "$description": "Texto/ícone de status error em contexto de texto corrido ou ícone standalone (mensagens de validação, inline errors). Não usar sobre background/error/strong — use foreground/on/error/strong."
+        },
+        "warning": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-color-foreground-warning)"
+            }
+          },
+          "$type": "color",
+          "$value": "{brand.color.warning.300}",
+          "$description": "Texto/ícone de status warning em contexto de texto corrido ou ícone standalone (avisos inline, banners de alerta). Não usar sobre background/warning/strong — use foreground/on/warning/strong."
+        },
+        "success": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-color-foreground-success)"
+            }
+          },
+          "$type": "color",
+          "$value": "{brand.color.success.300}",
+          "$description": "Texto/ícone de status success em contexto de texto corrido ou ícone standalone (confirmações inline, mensagens de sucesso). Não usar sobre background/success/strong — use foreground/on/success/strong."
+        },
+        "info": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-color-foreground-info)"
+            }
+          },
+          "$type": "color",
+          "$value": "{brand.color.info.300}",
+          "$description": "Texto/ícone de status info em contexto de texto corrido ou ícone standalone (dicas, notas informativas). Não usar sobre background/info/strong — use foreground/on/info/strong."
+        },
+        "neutral": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-color-foreground-neutral)"
+            }
+          },
+          "$type": "color",
+          "$value": "{brand.color.ink.dark.90}",
+          "$description": "Hierarquia de texto por opacidade (tingida pela marca via brand.color.ink, não preto/branco puro) — nível 1 (mais forte, 90%). Títulos, labels, conteúdo primário."
+        },
+        "disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-color-foreground-disabled)"
+            }
+          },
+          "$type": "color",
+          "$value": "{core.color.alpha.white.38}",
+          "$description": "Texto/ícone desabilitado. Isento de contraste WCAG. Referencia core/alpha para opacidade universal."
+        },
+        "placeholder": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-color-foreground-placeholder)"
+            }
+          },
+          "$type": "color",
+          "$value": "{brand.color.neutral.300}",
+          "$description": "Texto placeholder. Abaixo de AA — isento pelo WCAG para placeholders. Uso exclusivo: inputs."
+        },
+        "input": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-color-foreground-input)"
+            }
+          },
+          "$type": "color",
+          "$value": "{brand.color.neutral.25}",
+          "$description": "Texto digitado dentro de inputs (valor preenchido pelo usuário). Uso exclusivo: campos de formulário no estado default/filled/focused. Não usar em labels ou placeholders."
+        },
+        "primary": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-color-foreground-primary)"
+            }
+          },
+          "$type": "color",
+          "$value": "{brand.color.primary.300}",
+          "$description": "Texto/ícone de ação primária (botões, links destacados, labels de status primary). Contraste AA sobre fundos claros. Não usar sobre background/primary/strong — use foreground/on/primary/strong."
+        },
+        "link": {
+          "default": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "SHAPE_FILL",
+                "TEXT_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-foreground-link-default)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.primary.500}",
+            "$description": "Cor de texto/ícone — uso semântico: link / default. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          },
+          "hover": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "SHAPE_FILL",
+                "TEXT_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-foreground-link-hover)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.primary.400}",
+            "$description": "Cor de texto/ícone — uso semântico: link / hover. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          },
+          "pressed": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "SHAPE_FILL",
+                "TEXT_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-foreground-link-pressed)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.primary.300}",
+            "$description": "Cor de texto/ícone — uso semântico: link / pressed. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          },
+          "visited": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "SHAPE_FILL",
+                "TEXT_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-foreground-link-visited)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.secondary.500}",
+            "$description": "Cor de texto/ícone — uso semântico: link / visited. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          }
+        },
+        "inverse": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-color-foreground-inverse)"
+            }
+          },
+          "$type": "color",
+          "$value": "{brand.color.neutral.950}",
+          "$description": "Texto sobre fundos escuros/invertidos (dark headers, toasts escuros). Par: background/contrast/*."
+        },
+        "secondary": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-color-foreground-secondary)"
+            }
+          },
+          "$type": "color",
+          "$value": "{brand.color.secondary.900}",
+          "$description": "Texto/ícone de destaque secondary (badges, links de categoria, elementos diferenciadores). Contraste AA sobre fundos claros. Não usar sobre background/secondary/strong — use foreground/on/secondary/strong."
+        },
+        "on": {
+          "primary": {
+            "subtle": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-foreground-on-primary-subtle)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.foregrond.on.primary.dark.subtle}",
+              "$description": "Texto/ícone sobre background/primary/subtle/default, /hover, /emphasis. Garante AAA."
+            },
+            "strong": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-foreground-on-primary-strong)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.foregrond.on.primary.dark.strong}",
+              "$description": "Texto/ícone sobre background/primary/strong/emphasis. Branco universal. Garante AA."
+            }
+          },
+          "secondary": {
+            "subtle": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-foreground-on-secondary-subtle)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.foregrond.on.secondary.dark.subtle}",
+              "$description": "Texto/ícone sobre background/secondary/subtle/default, /hover, /emphasis. Garante AAA."
+            },
+            "strong": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-foreground-on-secondary-strong)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.foregrond.on.secondary.dark.strong}",
+              "$description": "Texto/ícone sobre background/secondary/strong/emphasis. Branco universal. Garante AA."
+            }
+          },
+          "neutral": {
+            "subtle": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-foreground-on-neutral-subtle)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.foregrond.on.neutral.dark.subtle}",
+              "$description": "Texto/ícone sobre background/neutral/subtle/default, /hover, /emphasis. Garante AAA."
+            },
+            "strong": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-foreground-on-neutral-strong)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.foregrond.on.neutral.dark.strong}",
+              "$description": "Texto/ícone sobre background/neutral/strong/emphasis. Branco universal. Garante AA."
+            }
+          },
+          "error": {
+            "subtle": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-foreground-on-error-subtle)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.foregrond.on.error.dark.subtle}",
+              "$description": "Texto/ícone sobre background/error/subtle/default, /hover, /emphasis. Cor escura de status. Garante AAA sobre fundos sutis."
+            },
+            "strong": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-foreground-on-error-strong)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.foregrond.on.error.dark.strong}",
+              "$description": "Texto/ícone sobre background/error/strong/emphasis. Branco universal. Garante AA. Não usar em /strong/default ou /hover (contraste insuficiente)."
+            }
+          },
+          "warning": {
+            "subtle": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-foreground-on-warning-subtle)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.foregrond.on.warning.dark.subtle}",
+              "$description": "Texto/ícone sobre background/warning/subtle/default, /hover, /emphasis. Garante AAA."
+            },
+            "strong": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-foreground-on-warning-strong)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.foregrond.on.warning.dark.strong}",
+              "$description": "Texto/ícone sobre background/warning/strong/emphasis. Branco universal. Garante AA."
+            }
+          },
+          "success": {
+            "strong": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-foreground-on-success-strong)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.foregrond.on.success.dark.strong}",
+              "$description": "Texto/ícone sobre background/success/strong/emphasis. Branco universal. Garante AA."
+            },
+            "subtle": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-foreground-on-success-subtle)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.foregrond.on.success.dark.subtle}",
+              "$description": "Texto/ícone sobre background/success/subtle/default, /hover, /emphasis. Garante AAA."
+            }
+          },
+          "info": {
+            "subtle": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-foreground-on-info-subtle)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.foregrond.on.info.dark.subtle}",
+              "$description": "Texto/ícone sobre background/info/subtle/default, /hover, /emphasis. Garante AAA."
+            },
+            "strong": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-foreground-on-info-strong)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.foregrond.on.info.dark.strong}",
+              "$description": "Texto/ícone sobre background/info/strong/emphasis. Branco universal. Garante AA."
+            }
+          },
+          "contrast": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "SHAPE_FILL",
+                "TEXT_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-foreground-on-inverse)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.neutral.900}",
+            "$description": "Texto escuro para uso sobre background/contrast/*, background/inverse, background/inverse/hover, background/inverse/deep. Par para elementos invertidos/dark."
+          },
+          "inverse": {
+            "subtle": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-foreground-on-inverse-subtle)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.foregrond.on.inverse.dark.subtle}",
+              "$description": "Texto/ícone escuro sobre background/inverse (superfícies invertidas). Garante AAA."
+            },
+            "strong": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "SHAPE_FILL",
+                  "TEXT_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-foreground-on-inverse-strong)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.foregrond.on.inverse.dark.strong}",
+              "$description": "Texto/ícone escuro sobre background/inverse, ênfase máxima. Garante AA."
+            }
+          }
+        },
+        "muted": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-color-foreground-muted)"
+            }
+          },
+          "$type": "color",
+          "$value": "{brand.color.ink.dark.50}",
+          "$description": "Hierarquia de texto por opacidade (tingida pela marca via brand.color.ink, não preto/branco puro) — nível 3 (médio, 50%). Subtítulos, metadados, legendas, labels auxiliares."
+        },
+        "body": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-color-foreground-body)"
+            }
+          },
+          "$type": "color",
+          "$value": "{brand.color.ink.dark.70}",
+          "$description": "Hierarquia de texto por opacidade (tingida pela marca via brand.color.ink, não preto/branco puro) — nível 2 (70%). Corpo de texto, conteúdo de leitura corrida."
+        },
+        "faint": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-color-foreground-faint)"
+            }
+          },
+          "$type": "color",
+          "$value": "{brand.color.ink.dark.20}",
+          "$description": "Hierarquia de texto por opacidade (tingida pela marca via brand.color.ink, não preto/branco puro) — nível 4 (mais fraco, 20%). Texto de menor ênfase, dicas, placeholders visuais leves."
+        }
+      },
+      "border": {
+        "error": {
+          "subtle": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-border-error-subtle)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.error.700}",
+            "$description": "Cor de borda — uso semântico: error / subtle. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          },
+          "default": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-border-error-default)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.error.500}",
+            "$description": "Cor de borda — uso semântico: error / default. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          },
+          "strong": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-border-error-strong)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.error.300}",
+            "$description": "Cor de borda — uso semântico: error / strong. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          }
+        },
+        "success": {
+          "subtle": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-border-success-subtle)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.success.700}",
+            "$description": "Cor de borda — uso semântico: success / subtle. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          },
+          "default": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-border-success-default)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.success.500}",
+            "$description": "Cor de borda — uso semântico: success / default. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          },
+          "strong": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-border-success-strong)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.success.300}",
+            "$description": "Cor de borda — uso semântico: success / strong. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          }
+        },
+        "warning": {
+          "subtle": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-border-warning-subtle)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.warning.700}",
+            "$description": "Cor de borda — uso semântico: warning / subtle. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          },
+          "default": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-border-warning-default)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.warning.500}",
+            "$description": "Cor de borda — uso semântico: warning / default. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          },
+          "strong": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-border-warning-strong)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.warning.300}",
+            "$description": "Cor de borda — uso semântico: warning / strong. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          }
+        },
+        "disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-color-border-disabled)"
+            }
+          },
+          "$type": "color",
+          "$value": "{core.color.alpha.white.30}",
+          "$description": "Borda de elemento desabilitado. Implementado via opacidade (core/alpha). Isento de contraste WCAG."
+        },
+        "inverse": {
+          "default": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-border-inverse-default)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.neutral.950}",
+            "$description": "Borda sobre fundos dark/invertidos (contrast/section, contrast/surface). Cor clara para ser visível sobre fundo escuro. Par: background/contrast/*. Não usar sobre fundos claros."
+          }
+        },
+        "focus": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "EFFECT_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-color-border-focus)"
+            }
+          },
+          "$type": "color",
+          "$value": "{brand.color.primary.500}",
+          "$description": "Anel de foco (focus ring) aplicado a qualquer elemento interativo focado via teclado. Uso: outline de 2px offset 2px ao redor do componente. Não usar como borda decorativa."
+        },
+        "primary": {
+          "subtle": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-border-primary-subtle)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.primary.300}",
+            "$description": "Cor de borda — uso semântico: primary / subtle. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          },
+          "default": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-border-primary-default)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.primary.500}",
+            "$description": "Cor de borda — uso semântico: primary / default. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          },
+          "strong": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-border-primary-strong)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.primary.700}",
+            "$description": "Cor de borda — uso semântico: primary / strong. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          }
+        },
+        "secondary": {
+          "subtle": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-border-secondary-subtle)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.secondary.300}",
+            "$description": "Cor de borda — uso semântico: secondary / subtle. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          },
+          "default": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-border-secondary-default)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.secondary.500}",
+            "$description": "Cor de borda — uso semântico: secondary / default. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          },
+          "strong": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-border-secondary-strong)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.secondary.700}",
+            "$description": "Cor de borda — uso semântico: secondary / strong. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          }
+        },
+        "neutral": {
+          "subtle": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-border-neutral-subtle)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.neutral.700}",
+            "$description": "Cor de borda — uso semântico: neutral / subtle. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          },
+          "default": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-border-neutral-default)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.neutral.500}",
+            "$description": "Cor de borda — uso semântico: neutral / default. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          },
+          "strong": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-border-neutral-strong)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.neutral.300}",
+            "$description": "Cor de borda — uso semântico: neutral / strong. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          }
+        },
+        "info": {
+          "subtle": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-border-info-subtle)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.info.700}",
+            "$description": "Cor de borda — uso semântico: info / subtle. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          },
+          "default": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-border-info-default)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.info.500}",
+            "$description": "Cor de borda — uso semântico: info / default. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          },
+          "strong": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-border-info-strong)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.info.300}",
+            "$description": "Cor de borda — uso semântico: info / strong. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          }
+        },
+        "link": {
+          "default": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-border-link-default)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.primary.500}",
+            "$description": "Cor de borda — uso semântico: link / default. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          },
+          "hover": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-border-link-hover)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.primary.400}",
+            "$description": "Cor de borda — uso semântico: link / hover. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          },
+          "pressed": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-border-link-pressed)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.primary.300}",
+            "$description": "Cor de borda — uso semântico: link / pressed. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          },
+          "visited": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-border-link-visited)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.secondary.500}",
+            "$description": "Cor de borda — uso semântico: link / visited. Aplicar conforme o papel, a variante e o estado indicados pelo nome do token; não usar cores da paleta diretamente em componentes."
+          }
+        }
+      },
+      "background": {
+        "disabled": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-color-background-disabled)"
+            }
+          },
+          "$type": "color",
+          "$value": "{core.color.alpha.white.10}",
+          "$description": "Fundo de elemento desabilitado. Opacity-based (core/alpha/black/10) — isento de contraste WCAG. Par: foreground/disabled + border/disabled. Não substituir por cor sólida."
+        },
+        "neutral": {
+          "strong": {
+            "default": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-neutral-strong-1)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.neutral.100}",
+              "$description": "Fundo preenchido de neutral. SEM TEXTO — use apenas para elementos decorativos (indicadores, ícones). Se precisar de texto use /subtle + on/neutral/subtle."
+            },
+            "hover": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-neutral-strong-2)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.neutral.50}",
+              "$description": "Hover do fundo preenchido de neutral. SEM TEXTO."
+            },
+            "emphasis": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-neutral-strong-3)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.neutral.25}",
+              "$description": "Shade mais escuro preenchido de neutral. Par: foreground/on/neutral/strong (branco). Garante AA. Uso: botões neutral filled, badges filled neutros com texto branco."
+            }
+          },
+          "subtle": {
+            "default": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-neutral-subtle-1)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.neutral.700}",
+              "$description": "Fundo sutil de neutral. Par obrigatório: foreground/on/neutral/subtle. Uso: surfaces com texto — alerts, chips, badges. Garante AAA."
+            },
+            "hover": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-neutral-subtle-2)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.neutral.600}",
+              "$description": "Hover/estado ativo do fundo sutil de neutral. Par: foreground/on/neutral/subtle."
+            },
+            "emphasis": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-neutral-subtle-3)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.neutral.500}",
+              "$description": "Ênfase visual maior no fundo sutil de neutral. Shade mais escuro do subtle. Par: foreground/on/neutral/subtle."
+            }
+          }
+        },
+        "error": {
+          "strong": {
+            "default": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-error-strong-1)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.error.500}",
+              "$description": "Fundo preenchido de error. SEM TEXTO — use apenas para elementos decorativos (indicadores, ícones). Se precisar de texto use /subtle + on/error/subtle."
+            },
+            "hover": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-error-strong-2)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.error.400}",
+              "$description": "Hover do fundo preenchido de error. SEM TEXTO."
+            },
+            "emphasis": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-error-strong-3)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.error.300}",
+              "$description": "Shade mais escuro preenchido de error. Par: foreground/on/error/strong (branco). Garante AA. Uso: botões primary de error, badges filled de error com texto branco."
+            }
+          },
+          "subtle": {
+            "default": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-error-subtle-1)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.error.900}",
+              "$description": "Fundo sutil de error. Par obrigatório: foreground/on/error/subtle. Uso: surfaces com texto — alerts, chips, badges. Garante AAA."
+            },
+            "hover": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-error-subtle-2)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.error.800}",
+              "$description": "Hover/estado ativo do fundo sutil de error. Par: foreground/on/error/subtle."
+            },
+            "emphasis": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-error-subtle-3)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.error.700}",
+              "$description": "Ênfase visual maior no fundo sutil de error. Shade mais escuro do subtle. Par: foreground/on/error/subtle."
+            }
+          }
+        },
+        "success": {
+          "strong": {
+            "default": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-success-strong-1)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.success.500}",
+              "$description": "Fundo preenchido de success. SEM TEXTO — use apenas para elementos decorativos (indicadores, ícones). Se precisar de texto use /subtle + on/success/subtle."
+            },
+            "hover": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-success-strong-2)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.success.400}",
+              "$description": "Hover do fundo preenchido de success. SEM TEXTO."
+            },
+            "emphasis": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-success-strong-3)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.success.300}",
+              "$description": "Shade mais escuro preenchido de success. Par: foreground/on/success/strong (branco). Garante AA. Uso: botões primary de success, badges filled de success com texto branco."
+            }
+          },
+          "subtle": {
+            "default": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-success-subtle-1)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.success.900}",
+              "$description": "Fundo sutil de success. Par obrigatório: foreground/on/success/subtle. Uso: surfaces com texto — alerts, chips, badges. Garante AAA."
+            },
+            "hover": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-success-subtle-2)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.success.800}",
+              "$description": "Hover/estado ativo do fundo sutil de success. Par: foreground/on/success/subtle."
+            },
+            "emphasis": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-success-subtle-3)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.success.700}",
+              "$description": "Ênfase visual maior no fundo sutil de success. Shade mais escuro do subtle. Par: foreground/on/success/subtle."
+            }
+          }
+        },
+        "info": {
+          "strong": {
+            "default": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-info-strong-1)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.info.500}",
+              "$description": "Fundo preenchido de info. SEM TEXTO — use apenas para elementos decorativos (indicadores, ícones). Se precisar de texto use /subtle + on/info/subtle."
+            },
+            "hover": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-info-strong-2)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.info.400}",
+              "$description": "Hover do fundo preenchido de info. SEM TEXTO."
+            },
+            "emphasis": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-info-strong-3)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.info.300}",
+              "$description": "Shade mais escuro preenchido de info. Par: foreground/on/info/strong (branco). Garante AA. Uso: botões primary de info, badges filled de info com texto branco."
+            }
+          },
+          "subtle": {
+            "default": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-info-subtle-1)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.info.900}",
+              "$description": "Fundo sutil de info. Par obrigatório: foreground/on/info/subtle. Uso: surfaces com texto — alerts, chips, badges. Garante AAA."
+            },
+            "hover": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-info-subtle-2)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.info.800}",
+              "$description": "Hover/estado ativo do fundo sutil de info. Par: foreground/on/info/subtle."
+            },
+            "emphasis": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-info-subtle-3)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.info.700}",
+              "$description": "Ênfase visual maior no fundo sutil de info. Shade mais escuro do subtle. Par: foreground/on/info/subtle."
+            }
+          }
+        },
+        "page": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-color-background-page)"
+            }
+          },
+          "$type": "color",
+          "$value": "{brand.color.neutral.900}",
+          "$description": "Fundo da página inteira (body/canvas). Nível mais baixo da hierarquia de superfícies. Use uma camada acima: background/surface ou /raised."
+        },
+        "surface": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-color-background-surface)"
+            }
+          },
+          "$type": "color",
+          "$value": "{brand.color.neutral.800}",
+          "$description": "Fundo de superfícies padrão (cards, painéis, modais sobre a page). Nível 2 da hierarquia: fica sobre background/page."
+        },
+        "raised": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-color-background-raised)"
+            }
+          },
+          "$type": "color",
+          "$value": "{brand.color.neutral.700}",
+          "$description": "Fundo de elementos elevados (dropdowns, popovers, tooltips). Nível 3 da hierarquia: fica sobre background/surface. Recebe sombra para indicar elevação."
+        },
+        "sunken": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-color-background-sunken)"
+            }
+          },
+          "$type": "color",
+          "$value": "{brand.color.neutral.950}",
+          "$description": "Fundo rebaixado/afundado (inputs, áreas de drag, wells). Hierarquia inversa: fica abaixo visualmente de background/page. Cria profundidade negativa."
+        },
+        "transparent": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-color-background-transparent)"
+            }
+          },
+          "$type": "color",
+          "$value": "{brand.color.base.transparent}",
+          "$description": "Fundo transparente explícito. Uso: reset de cor de fundo em componentes que herdam fill do pai. Não confundir com ausência de fill — este token garante transparência intencional."
+        },
+        "secondary": {
+          "strong": {
+            "default": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-secondary-strong-1)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.secondary.500}",
+              "$description": "Fundo preenchido de secondary. SEM TEXTO — use apenas para elementos decorativos (indicadores, ícones). Se precisar de texto use /subtle + on/secondary/subtle."
+            },
+            "hover": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-secondary-strong-2)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.secondary.400}",
+              "$description": "Hover do fundo preenchido de secondary. SEM TEXTO."
+            },
+            "emphasis": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-secondary-strong-3)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.secondary.300}",
+              "$description": "Shade mais escuro preenchido de secondary. Par: foreground/on/secondary/strong (branco). Garante AA. Uso: botões primary de secondary, badges filled de secondary com texto branco."
+            }
+          },
+          "subtle": {
+            "default": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-secondary-subtle-1)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.secondary.900}",
+              "$description": "Fundo sutil de secondary. Par obrigatório: foreground/on/secondary/subtle. Uso: surfaces com texto — alerts, chips, badges. Garante AAA."
+            },
+            "hover": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-secondary-subtle-2)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.secondary.800}",
+              "$description": "Hover/estado ativo do fundo sutil de secondary. Par: foreground/on/secondary/subtle."
+            },
+            "emphasis": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-secondary-subtle-3)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.secondary.700}",
+              "$description": "Ênfase visual maior no fundo sutil de secondary. Shade mais escuro do subtle. Par: foreground/on/secondary/subtle."
+            }
+          }
+        },
+        "primary": {
+          "strong": {
+            "default": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-primary-strong-1)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.primary.500}",
+              "$description": "Fundo preenchido de primary. SEM TEXTO — use apenas para elementos decorativos (indicadores, ícones). Se precisar de texto use /subtle + on/primary/subtle."
+            },
+            "hover": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-primary-strong-2)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.primary.400}",
+              "$description": "Hover do fundo preenchido de primary. SEM TEXTO."
+            },
+            "emphasis": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-primary-strong-3)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.primary.300}",
+              "$description": "Shade mais escuro preenchido de primary. Par: foreground/on/primary/strong (branco). Garante AA. Uso: botões primary filled, badges filled de primary com texto branco."
+            }
+          },
+          "subtle": {
+            "default": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-primary-subtle-1)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.primary.900}",
+              "$description": "Fundo sutil de primary. Par obrigatório: foreground/on/primary/subtle. Uso: surfaces com texto — alerts, chips, badges. Garante AAA."
+            },
+            "hover": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-primary-subtle-2)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.primary.800}",
+              "$description": "Hover/estado ativo do fundo sutil de primary. Par: foreground/on/primary/subtle."
+            },
+            "emphasis": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-primary-subtle-3)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.primary.700}",
+              "$description": "Ênfase visual maior no fundo sutil de primary. Shade mais escuro do subtle. Par: foreground/on/primary/subtle."
+            }
+          }
+        },
+        "inverse": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-color-background-inverse-1)"
+            }
+          },
+          "$type": "color",
+          "$value": "{brand.color.neutral.800}",
+          "$description": "Fundo de hover/interação sobre superfícies escuras (inverse). Shade mais claro — nível 1. Par de texto: foreground/on/inverse. Uso: estado hover em itens de lista dentro de contrast/section.",
+          "hover": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-background-inverse-2)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.neutral.700}",
+            "$description": "Fundo de hover/interação sobre superfícies escuras (inverse). Shade médio — nível 2 (mais suave que inverse). Par de texto: foreground/on/inverse."
+          },
+          "emphasis": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-background-inverse-3)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.neutral.600}",
+            "$description": "Fundo de hover/interação sobre superfícies escuras (inverse). Shade mais suave — nível 3. Par de texto: foreground/on/inverse."
+          }
+        },
+        "warning": {
+          "strong": {
+            "default": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-warning-strong-1)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.warning.500}",
+              "$description": "Fundo preenchido de warning. SEM TEXTO — use apenas para elementos decorativos (indicadores, ícones). Se precisar de texto use /subtle + on/warning/subtle."
+            },
+            "hover": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-warning-strong-2)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.warning.400}",
+              "$description": "Hover do fundo preenchido de warning. SEM TEXTO."
+            },
+            "emphasis": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-warning-strong-3)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.warning.300}",
+              "$description": "Shade mais escuro preenchido de warning. Par: foreground/on/warning/strong (branco). Garante AA. Uso: botões primary de warning, badges filled de warning com texto branco."
+            }
+          },
+          "subtle": {
+            "default": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-warning-subtle-1)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.warning.900}",
+              "$description": "Fundo sutil de warning. Par obrigatório: foreground/on/warning/subtle. Uso: surfaces com texto — alerts, chips, badges. Garante AAA."
+            },
+            "hover": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-warning-subtle-2)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.warning.800}",
+              "$description": "Hover/estado ativo do fundo sutil de warning. Par: foreground/on/warning/subtle."
+            },
+            "emphasis": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "FRAME_FILL"
+                ],
+                "com.figma.hiddenFromPublishing": false,
+                "com.figma.codeSyntax": {
+                  "Web": "var(--semantic-color-background-warning-subtle-3)"
+                }
+              },
+              "$type": "color",
+              "$value": "{brand.color.warning.700}",
+              "$description": "Ênfase visual maior no fundo sutil de warning. Shade mais escuro do subtle. Par: foreground/on/warning/subtle."
+            }
+          }
+        },
+        "contrast": {
+          "section": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-background-contrast-section)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.neutral.50}",
+            "$description": "Fundo de seção em modo dark/alto contraste (headers escuros, sidebars escuras, dark toasts). Par de texto: foreground/inverse. Nível mais escuro da hierarquia contrast."
+          },
+          "surface": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-background-contrast-surface)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.neutral.25}",
+            "$description": "Fundo de surface em modo dark/alto contraste (cards dentro de seções dark). Par de texto: foreground/inverse. Um shade acima de contrast/section."
+          },
+          "raised": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": false,
+              "com.figma.codeSyntax": {
+                "Web": "var(--semantic-color-background-contrast-raised)"
+              }
+            },
+            "$type": "color",
+            "$value": "{brand.color.base.white}",
+            "$description": "Fundo de elemento raised em modo dark/alto contraste (dropdowns dentro de sidebars dark). Par de texto: foreground/inverse. Um shade acima de contrast/surface."
+          }
+        },
+        "overlay-scrim": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-color-background-overlayscrim)"
+            }
+          },
+          "$type": "color",
+          "$value": "{brand.color.base.overlayScrim}",
+          "$description": "Fundo escurecido para modais, drawers e bottom sheets. Cobre o conteúdo atrás. Opacidade controlada pela camada, não pela variável."
+        }
+      }
+    },
+    "shadow": {
+      "primary": {
+        "pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "EFFECT_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-shadow-primary-pressed)"
+            }
+          },
+          "$type": "color",
+          "$value": "{brand.color.primary.200}",
+          "$description": "Cor do ring/shadow no estado pressed de componentes primary (ex: botão primary pressionado). Aplicar como box-shadow de 0 0 0 3px. Par: background/primary/strong-emphasis."
+        }
+      },
+      "error": {
+        "pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "EFFECT_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-shadow-error-pressed)"
+            }
+          },
+          "$type": "color",
+          "$value": "{brand.color.error.200}",
+          "$description": "Cor do ring/shadow no estado pressed de componentes error (ex: botão destrutivo pressionado). Aplicar como box-shadow de 0 0 0 3px. Par: background/error/strong-emphasis."
+        }
+      },
+      "neutral": {
+        "pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "EFFECT_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-shadow-neutral-pressed)"
+            }
+          },
+          "$type": "color",
+          "$value": "{brand.color.neutral.200}",
+          "$description": "Cor do ring/shadow no estado pressed de componentes neutral. Aplicar como box-shadow de 0 0 0 3px. Par: background/neutral/strong-emphasis."
+        }
+      },
+      "inverse": {
+        "pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "EFFECT_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-shadow-inverse-pressed)"
+            }
+          },
+          "$type": "color",
+          "$value": "{brand.color.neutral.200}",
+          "$description": "Cor do ring/shadow no estado pressed de componentes sobre fundo invertido (dark). Aplicar como box-shadow de 0 0 0 3px. Par: background/contrast/section."
+        }
+      },
+      "secondary": {
+        "pressed": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "EFFECT_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-shadow-secondary-pressed)"
+            }
+          },
+          "$type": "color",
+          "$value": "{brand.color.secondary.200}",
+          "$description": "Cor do ring/shadow no estado pressed de componentes secondary. Aplicar como box-shadow de 0 0 0 3px. Par: background/secondary/strong-emphasis."
+        }
+      }
+    }
+  }
+}

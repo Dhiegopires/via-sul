@@ -1,0 +1,2358 @@
+{
+  "palette": {
+    "color": {
+      "green": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f6fef9",
+          "$description": "Cor primitiva da paleta — família “green”, tom 25. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#ecfdf3",
+          "$description": "Cor primitiva da paleta — família “green”, tom 50. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#dcfae6",
+          "$description": "Cor primitiva da paleta — família “green”, tom 100. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#abefc6",
+          "$description": "Cor primitiva da paleta — família “green”, tom 200. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#75e0a7",
+          "$description": "Cor primitiva da paleta — família “green”, tom 300. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#47cd89",
+          "$description": "Cor primitiva da paleta — família “green”, tom 400. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#17b26a",
+          "$description": "Cor primitiva da paleta — família “green”, tom 500. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#079455",
+          "$description": "Cor primitiva da paleta — família “green”, tom 600. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#067647",
+          "$description": "Cor primitiva da paleta — família “green”, tom 700. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#085d3a",
+          "$description": "Cor primitiva da paleta — família “green”, tom 800. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#074d31",
+          "$description": "Cor primitiva da paleta — família “green”, tom 900. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#053321",
+          "$description": "Cor primitiva da paleta — família “green”, tom 950. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        }
+      },
+      "stone": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fffffe",
+          "$description": "Cor primitiva da paleta — família “stone”, tom 25. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fafaf9",
+          "$description": "Cor primitiva da paleta — família “stone”, tom 50. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f5f5f4",
+          "$description": "Cor primitiva da paleta — família “stone”, tom 100. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#e7e5e4",
+          "$description": "Cor primitiva da paleta — família “stone”, tom 200. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#d6d3d1",
+          "$description": "Cor primitiva da paleta — família “stone”, tom 300. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#a8a29e",
+          "$description": "Cor primitiva da paleta — família “stone”, tom 400. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#78716c",
+          "$description": "Cor primitiva da paleta — família “stone”, tom 500. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#57534e",
+          "$description": "Cor primitiva da paleta — família “stone”, tom 600. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#44403c",
+          "$description": "Cor primitiva da paleta — família “stone”, tom 700. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#292524",
+          "$description": "Cor primitiva da paleta — família “stone”, tom 800. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#1c1917",
+          "$description": "Cor primitiva da paleta — família “stone”, tom 900. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#0c0a09",
+          "$description": "Cor primitiva da paleta — família “stone”, tom 950. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        }
+      },
+      "red": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fffbfa",
+          "$description": "Cor primitiva da paleta — família “red”, tom 25. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fef3f2",
+          "$description": "Cor primitiva da paleta — família “red”, tom 50. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fee4e2",
+          "$description": "Cor primitiva da paleta — família “red”, tom 100. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fecdca",
+          "$description": "Cor primitiva da paleta — família “red”, tom 200. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fca19a",
+          "$description": "Cor primitiva da paleta — família “red”, tom 300. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f97066",
+          "$description": "Cor primitiva da paleta — família “red”, tom 400. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f04438",
+          "$description": "Cor primitiva da paleta — família “red”, tom 500. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#d92d20",
+          "$description": "Cor primitiva da paleta — família “red”, tom 600. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#b42318",
+          "$description": "Cor primitiva da paleta — família “red”, tom 700. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#912018",
+          "$description": "Cor primitiva da paleta — família “red”, tom 800. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#7a271a",
+          "$description": "Cor primitiva da paleta — família “red”, tom 900. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#55160c",
+          "$description": "Cor primitiva da paleta — família “red”, tom 950. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        }
+      },
+      "yellow": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fffcf5",
+          "$description": "Cor primitiva da paleta — família “yellow”, tom 25. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fefce8",
+          "$description": "Cor primitiva da paleta — família “yellow”, tom 50. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fef9c3",
+          "$description": "Cor primitiva da paleta — família “yellow”, tom 100. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fef08a",
+          "$description": "Cor primitiva da paleta — família “yellow”, tom 200. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fde047",
+          "$description": "Cor primitiva da paleta — família “yellow”, tom 300. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#facc15",
+          "$description": "Cor primitiva da paleta — família “yellow”, tom 400. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#eab308",
+          "$description": "Cor primitiva da paleta — família “yellow”, tom 500. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#ca8a04",
+          "$description": "Cor primitiva da paleta — família “yellow”, tom 600. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#a16207",
+          "$description": "Cor primitiva da paleta — família “yellow”, tom 700. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#854d0e",
+          "$description": "Cor primitiva da paleta — família “yellow”, tom 800. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#713f12",
+          "$description": "Cor primitiva da paleta — família “yellow”, tom 900. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#422006",
+          "$description": "Cor primitiva da paleta — família “yellow”, tom 950. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        }
+      },
+      "lime": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fafef5",
+          "$description": "Cor primitiva da paleta — família “lime”, tom 25. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f3fee7",
+          "$description": "Cor primitiva da paleta — família “lime”, tom 50. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#e3fbcc",
+          "$description": "Cor primitiva da paleta — família “lime”, tom 100. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#d0f8ab",
+          "$description": "Cor primitiva da paleta — família “lime”, tom 200. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#a6ef67",
+          "$description": "Cor primitiva da paleta — família “lime”, tom 300. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#85e13a",
+          "$description": "Cor primitiva da paleta — família “lime”, tom 400. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#66c61c",
+          "$description": "Cor primitiva da paleta — família “lime”, tom 500. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#4ca30d",
+          "$description": "Cor primitiva da paleta — família “lime”, tom 600. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#3b7c0f",
+          "$description": "Cor primitiva da paleta — família “lime”, tom 700. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#326212",
+          "$description": "Cor primitiva da paleta — família “lime”, tom 800. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#2b5314",
+          "$description": "Cor primitiva da paleta — família “lime”, tom 900. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#15290a",
+          "$description": "Cor primitiva da paleta — família “lime”, tom 950. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        }
+      },
+      "teal": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f6fefc",
+          "$description": "Cor primitiva da paleta — família “teal”, tom 25. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f0fdf9",
+          "$description": "Cor primitiva da paleta — família “teal”, tom 50. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#ccfbef",
+          "$description": "Cor primitiva da paleta — família “teal”, tom 100. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#99f6e0",
+          "$description": "Cor primitiva da paleta — família “teal”, tom 200. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#5fe9d0",
+          "$description": "Cor primitiva da paleta — família “teal”, tom 300. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#2ed3b7",
+          "$description": "Cor primitiva da paleta — família “teal”, tom 400. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#15b79e",
+          "$description": "Cor primitiva da paleta — família “teal”, tom 500. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#0e9384",
+          "$description": "Cor primitiva da paleta — família “teal”, tom 600. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#107569",
+          "$description": "Cor primitiva da paleta — família “teal”, tom 700. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#125d56",
+          "$description": "Cor primitiva da paleta — família “teal”, tom 800. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#134e48",
+          "$description": "Cor primitiva da paleta — família “teal”, tom 900. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#0a2926",
+          "$description": "Cor primitiva da paleta — família “teal”, tom 950. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        }
+      },
+      "blue": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f5f8ff",
+          "$description": "Cor primitiva da paleta — família “blue”, tom 25. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#eff4ff",
+          "$description": "Cor primitiva da paleta — família “blue”, tom 50. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#d1e0ff",
+          "$description": "Cor primitiva da paleta — família “blue”, tom 100. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#b2ccff",
+          "$description": "Cor primitiva da paleta — família “blue”, tom 200. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#84adff",
+          "$description": "Cor primitiva da paleta — família “blue”, tom 300. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#528bff",
+          "$description": "Cor primitiva da paleta — família “blue”, tom 400. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#2970ff",
+          "$description": "Cor primitiva da paleta — família “blue”, tom 500. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#155eef",
+          "$description": "Cor primitiva da paleta — família “blue”, tom 600. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#004eeb",
+          "$description": "Cor primitiva da paleta — família “blue”, tom 700. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#0040c1",
+          "$description": "Cor primitiva da paleta — família “blue”, tom 800. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#00359e",
+          "$description": "Cor primitiva da paleta — família “blue”, tom 900. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#002266",
+          "$description": "Cor primitiva da paleta — família “blue”, tom 950. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        }
+      },
+      "fuchsia": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fefaff",
+          "$description": "Cor primitiva da paleta — família “fuchsia”, tom 25. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fdf4ff",
+          "$description": "Cor primitiva da paleta — família “fuchsia”, tom 50. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fbe8ff",
+          "$description": "Cor primitiva da paleta — família “fuchsia”, tom 100. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f6d0fe",
+          "$description": "Cor primitiva da paleta — família “fuchsia”, tom 200. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#eeaafd",
+          "$description": "Cor primitiva da paleta — família “fuchsia”, tom 300. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#e478fa",
+          "$description": "Cor primitiva da paleta — família “fuchsia”, tom 400. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#d444f1",
+          "$description": "Cor primitiva da paleta — família “fuchsia”, tom 500. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#ba24d5",
+          "$description": "Cor primitiva da paleta — família “fuchsia”, tom 600. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#9f1ab1",
+          "$description": "Cor primitiva da paleta — família “fuchsia”, tom 700. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#821890",
+          "$description": "Cor primitiva da paleta — família “fuchsia”, tom 800. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#6f1877",
+          "$description": "Cor primitiva da paleta — família “fuchsia”, tom 900. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#47104c",
+          "$description": "Cor primitiva da paleta — família “fuchsia”, tom 950. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        }
+      },
+      "rose": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fff3f4",
+          "$description": "Cor primitiva da paleta — família “rose”, tom 25. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fff1f2",
+          "$description": "Cor primitiva da paleta — família “rose”, tom 50. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#ffe4e6",
+          "$description": "Cor primitiva da paleta — família “rose”, tom 100. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fecdd3",
+          "$description": "Cor primitiva da paleta — família “rose”, tom 200. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fda4af",
+          "$description": "Cor primitiva da paleta — família “rose”, tom 300. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fb7185",
+          "$description": "Cor primitiva da paleta — família “rose”, tom 400. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f43f5e",
+          "$description": "Cor primitiva da paleta — família “rose”, tom 500. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#e11d48",
+          "$description": "Cor primitiva da paleta — família “rose”, tom 600. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#be123c",
+          "$description": "Cor primitiva da paleta — família “rose”, tom 700. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#9f1239",
+          "$description": "Cor primitiva da paleta — família “rose”, tom 800. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#881337",
+          "$description": "Cor primitiva da paleta — família “rose”, tom 900. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#4c0519",
+          "$description": "Cor primitiva da paleta — família “rose”, tom 950. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        }
+      },
+      "violet": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f9f8ff",
+          "$description": "Cor primitiva da paleta — família “violet”, tom 25. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f5f3ff",
+          "$description": "Cor primitiva da paleta — família “violet”, tom 50. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#ede9fe",
+          "$description": "Cor primitiva da paleta — família “violet”, tom 100. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#ddd6fe",
+          "$description": "Cor primitiva da paleta — família “violet”, tom 200. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#c4b5fd",
+          "$description": "Cor primitiva da paleta — família “violet”, tom 300. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#a78bfa",
+          "$description": "Cor primitiva da paleta — família “violet”, tom 400. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#8b5cf6",
+          "$description": "Cor primitiva da paleta — família “violet”, tom 500. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#7c3aed",
+          "$description": "Cor primitiva da paleta — família “violet”, tom 600. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#6d28d9",
+          "$description": "Cor primitiva da paleta — família “violet”, tom 700. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#5b21b6",
+          "$description": "Cor primitiva da paleta — família “violet”, tom 800. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#4c1d95",
+          "$description": "Cor primitiva da paleta — família “violet”, tom 900. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#2e1065",
+          "$description": "Cor primitiva da paleta — família “violet”, tom 950. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        }
+      },
+      "purple": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f9f8ff",
+          "$description": "Cor primitiva da paleta — família “purple”, tom 25. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#faf5ff",
+          "$description": "Cor primitiva da paleta — família “purple”, tom 50. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f3e8ff",
+          "$description": "Cor primitiva da paleta — família “purple”, tom 100. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#e9d5ff",
+          "$description": "Cor primitiva da paleta — família “purple”, tom 200. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#d8b4fe",
+          "$description": "Cor primitiva da paleta — família “purple”, tom 300. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#c084fc",
+          "$description": "Cor primitiva da paleta — família “purple”, tom 400. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#a855f7",
+          "$description": "Cor primitiva da paleta — família “purple”, tom 500. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#9333ea",
+          "$description": "Cor primitiva da paleta — família “purple”, tom 600. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#7e22ce",
+          "$description": "Cor primitiva da paleta — família “purple”, tom 700. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#6b21a8",
+          "$description": "Cor primitiva da paleta — família “purple”, tom 800. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#581c87",
+          "$description": "Cor primitiva da paleta — família “purple”, tom 900. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#3b0764",
+          "$description": "Cor primitiva da paleta — família “purple”, tom 950. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        }
+      },
+      "pink": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fff4fa",
+          "$description": "Cor primitiva da paleta — família “pink”, tom 25. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fdf2f8",
+          "$description": "Cor primitiva da paleta — família “pink”, tom 50. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fce7f3",
+          "$description": "Cor primitiva da paleta — família “pink”, tom 100. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fbcfe8",
+          "$description": "Cor primitiva da paleta — família “pink”, tom 200. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f9a8d4",
+          "$description": "Cor primitiva da paleta — família “pink”, tom 300. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f472b6",
+          "$description": "Cor primitiva da paleta — família “pink”, tom 400. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#ec4899",
+          "$description": "Cor primitiva da paleta — família “pink”, tom 500. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#db2777",
+          "$description": "Cor primitiva da paleta — família “pink”, tom 600. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#be185d",
+          "$description": "Cor primitiva da paleta — família “pink”, tom 700. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#9d174d",
+          "$description": "Cor primitiva da paleta — família “pink”, tom 800. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#831843",
+          "$description": "Cor primitiva da paleta — família “pink”, tom 900. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#500724",
+          "$description": "Cor primitiva da paleta — família “pink”, tom 950. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        }
+      },
+      "sky": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f4fbff",
+          "$description": "Cor primitiva da paleta — família “sky”, tom 25. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f0f9ff",
+          "$description": "Cor primitiva da paleta — família “sky”, tom 50. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#e0f2fe",
+          "$description": "Cor primitiva da paleta — família “sky”, tom 100. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#bae6fd",
+          "$description": "Cor primitiva da paleta — família “sky”, tom 200. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#7dd3fc",
+          "$description": "Cor primitiva da paleta — família “sky”, tom 300. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#38bdf8",
+          "$description": "Cor primitiva da paleta — família “sky”, tom 400. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#0ea5e9",
+          "$description": "Cor primitiva da paleta — família “sky”, tom 500. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#0284c7",
+          "$description": "Cor primitiva da paleta — família “sky”, tom 600. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#0369a1",
+          "$description": "Cor primitiva da paleta — família “sky”, tom 700. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#075985",
+          "$description": "Cor primitiva da paleta — família “sky”, tom 800. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#0c4a6e",
+          "$description": "Cor primitiva da paleta — família “sky”, tom 900. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#082f49",
+          "$description": "Cor primitiva da paleta — família “sky”, tom 950. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        }
+      },
+      "cyan": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f4fbff",
+          "$description": "Cor primitiva da paleta — família “cyan”, tom 25. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#ecfeff",
+          "$description": "Cor primitiva da paleta — família “cyan”, tom 50. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#cffafe",
+          "$description": "Cor primitiva da paleta — família “cyan”, tom 100. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#a5f3fc",
+          "$description": "Cor primitiva da paleta — família “cyan”, tom 200. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#67e8f9",
+          "$description": "Cor primitiva da paleta — família “cyan”, tom 300. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#22d3ee",
+          "$description": "Cor primitiva da paleta — família “cyan”, tom 400. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#06b6d4",
+          "$description": "Cor primitiva da paleta — família “cyan”, tom 500. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#0891b2",
+          "$description": "Cor primitiva da paleta — família “cyan”, tom 600. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#0e7490",
+          "$description": "Cor primitiva da paleta — família “cyan”, tom 700. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#155e75",
+          "$description": "Cor primitiva da paleta — família “cyan”, tom 800. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#164e63",
+          "$description": "Cor primitiva da paleta — família “cyan”, tom 900. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#083344",
+          "$description": "Cor primitiva da paleta — família “cyan”, tom 950. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        }
+      },
+      "indigo": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f4f7ff",
+          "$description": "Cor primitiva da paleta — família “indigo”, tom 25. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#eef2ff",
+          "$description": "Cor primitiva da paleta — família “indigo”, tom 50. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#e0e7ff",
+          "$description": "Cor primitiva da paleta — família “indigo”, tom 100. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#c7d2fe",
+          "$description": "Cor primitiva da paleta — família “indigo”, tom 200. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#a5b4fc",
+          "$description": "Cor primitiva da paleta — família “indigo”, tom 300. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#818cf8",
+          "$description": "Cor primitiva da paleta — família “indigo”, tom 400. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#6366f1",
+          "$description": "Cor primitiva da paleta — família “indigo”, tom 500. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#4f46e5",
+          "$description": "Cor primitiva da paleta — família “indigo”, tom 600. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#4338ca",
+          "$description": "Cor primitiva da paleta — família “indigo”, tom 700. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#3730a3",
+          "$description": "Cor primitiva da paleta — família “indigo”, tom 800. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#312e81",
+          "$description": "Cor primitiva da paleta — família “indigo”, tom 900. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#1e1b4b",
+          "$description": "Cor primitiva da paleta — família “indigo”, tom 950. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        }
+      },
+      "emerald": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f4fffa",
+          "$description": "Cor primitiva da paleta — família “emerald”, tom 25. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#ecfdf5",
+          "$description": "Cor primitiva da paleta — família “emerald”, tom 50. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#d1fae5",
+          "$description": "Cor primitiva da paleta — família “emerald”, tom 100. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#a7f3d0",
+          "$description": "Cor primitiva da paleta — família “emerald”, tom 200. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#6ee7b7",
+          "$description": "Cor primitiva da paleta — família “emerald”, tom 300. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#34d399",
+          "$description": "Cor primitiva da paleta — família “emerald”, tom 400. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#10b981",
+          "$description": "Cor primitiva da paleta — família “emerald”, tom 500. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#059669",
+          "$description": "Cor primitiva da paleta — família “emerald”, tom 600. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#047857",
+          "$description": "Cor primitiva da paleta — família “emerald”, tom 700. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#065f46",
+          "$description": "Cor primitiva da paleta — família “emerald”, tom 800. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#064e3b",
+          "$description": "Cor primitiva da paleta — família “emerald”, tom 900. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#022c22",
+          "$description": "Cor primitiva da paleta — família “emerald”, tom 950. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        }
+      },
+      "amber": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fffcf5",
+          "$description": "Cor primitiva da paleta — família “amber”, tom 25. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fffbeb",
+          "$description": "Cor primitiva da paleta — família “amber”, tom 50. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fef3c7",
+          "$description": "Cor primitiva da paleta — família “amber”, tom 100. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fde68a",
+          "$description": "Cor primitiva da paleta — família “amber”, tom 200. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fcd34d",
+          "$description": "Cor primitiva da paleta — família “amber”, tom 300. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fbbf24",
+          "$description": "Cor primitiva da paleta — família “amber”, tom 400. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f59e0b",
+          "$description": "Cor primitiva da paleta — família “amber”, tom 500. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#d97706",
+          "$description": "Cor primitiva da paleta — família “amber”, tom 600. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#b45309",
+          "$description": "Cor primitiva da paleta — família “amber”, tom 700. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#92400e",
+          "$description": "Cor primitiva da paleta — família “amber”, tom 800. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#78350f",
+          "$description": "Cor primitiva da paleta — família “amber”, tom 900. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#451a03",
+          "$description": "Cor primitiva da paleta — família “amber”, tom 950. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        }
+      },
+      "orange": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fffaf4",
+          "$description": "Cor primitiva da paleta — família “orange”, tom 25. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fff7ed",
+          "$description": "Cor primitiva da paleta — família “orange”, tom 50. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#ffedd5",
+          "$description": "Cor primitiva da paleta — família “orange”, tom 100. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fed7aa",
+          "$description": "Cor primitiva da paleta — família “orange”, tom 200. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fdba74",
+          "$description": "Cor primitiva da paleta — família “orange”, tom 300. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fb923c",
+          "$description": "Cor primitiva da paleta — família “orange”, tom 400. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f97316",
+          "$description": "Cor primitiva da paleta — família “orange”, tom 500. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#ea580c",
+          "$description": "Cor primitiva da paleta — família “orange”, tom 600. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#c2410c",
+          "$description": "Cor primitiva da paleta — família “orange”, tom 700. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#9a3412",
+          "$description": "Cor primitiva da paleta — família “orange”, tom 800. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#7c2d12",
+          "$description": "Cor primitiva da paleta — família “orange”, tom 900. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#431407",
+          "$description": "Cor primitiva da paleta — família “orange”, tom 950. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        }
+      },
+      "grey": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fffefe",
+          "$description": "Cor primitiva da paleta — família “grey”, tom 25. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fafafa",
+          "$description": "Cor primitiva da paleta — família “grey”, tom 50. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f5f5f5",
+          "$description": "Cor primitiva da paleta — família “grey”, tom 100. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#e5e5e5",
+          "$description": "Cor primitiva da paleta — família “grey”, tom 200. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#d4d4d4",
+          "$description": "Cor primitiva da paleta — família “grey”, tom 300. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#a3a3a3",
+          "$description": "Cor primitiva da paleta — família “grey”, tom 400. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#737373",
+          "$description": "Cor primitiva da paleta — família “grey”, tom 500. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#525252",
+          "$description": "Cor primitiva da paleta — família “grey”, tom 600. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#404040",
+          "$description": "Cor primitiva da paleta — família “grey”, tom 700. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#262626",
+          "$description": "Cor primitiva da paleta — família “grey”, tom 800. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#171717",
+          "$description": "Cor primitiva da paleta — família “grey”, tom 900. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#0a0a0a",
+          "$description": "Cor primitiva da paleta — família “grey”, tom 950. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        }
+      },
+      "zinc": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fdfdff",
+          "$description": "Cor primitiva da paleta — família “zinc”, tom 25. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f4f4f5",
+          "$description": "Cor primitiva da paleta — família “zinc”, tom 50. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#e4e4e7",
+          "$description": "Cor primitiva da paleta — família “zinc”, tom 100. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#d4d4d8",
+          "$description": "Cor primitiva da paleta — família “zinc”, tom 200. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#c6c7cd",
+          "$description": "Cor primitiva da paleta — família “zinc”, tom 300. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#a1a1aa",
+          "$description": "Cor primitiva da paleta — família “zinc”, tom 400. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#71717a",
+          "$description": "Cor primitiva da paleta — família “zinc”, tom 500. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#52525b",
+          "$description": "Cor primitiva da paleta — família “zinc”, tom 600. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#3f3f46",
+          "$description": "Cor primitiva da paleta — família “zinc”, tom 700. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#27272a",
+          "$description": "Cor primitiva da paleta — família “zinc”, tom 800. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#18181b",
+          "$description": "Cor primitiva da paleta — família “zinc”, tom 900. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#09090b",
+          "$description": "Cor primitiva da paleta — família “zinc”, tom 950. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        }
+      },
+      "slate": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fdfeff",
+          "$description": "Cor primitiva da paleta — família “slate”, tom 25. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f8fafc",
+          "$description": "Cor primitiva da paleta — família “slate”, tom 50. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f1f5f9",
+          "$description": "Cor primitiva da paleta — família “slate”, tom 100. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#e2e8f0",
+          "$description": "Cor primitiva da paleta — família “slate”, tom 200. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#cbd5e1",
+          "$description": "Cor primitiva da paleta — família “slate”, tom 300. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#94a3b8",
+          "$description": "Cor primitiva da paleta — família “slate”, tom 400. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#64748b",
+          "$description": "Cor primitiva da paleta — família “slate”, tom 500. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#475569",
+          "$description": "Cor primitiva da paleta — família “slate”, tom 600. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#334155",
+          "$description": "Cor primitiva da paleta — família “slate”, tom 700. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#1e293b",
+          "$description": "Cor primitiva da paleta — família “slate”, tom 800. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#0f172a",
+          "$description": "Cor primitiva da paleta — família “slate”, tom 900. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#020617",
+          "$description": "Cor primitiva da paleta — família “slate”, tom 950. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        }
+      },
+      "tinted": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fcfcfd",
+          "$description": "Cor primitiva da paleta — família “tinted”, tom 25. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f9fafb",
+          "$description": "Cor primitiva da paleta — família “tinted”, tom 50. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f2f4f7",
+          "$description": "Cor primitiva da paleta — família “tinted”, tom 100. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#eaecf0",
+          "$description": "Cor primitiva da paleta — família “tinted”, tom 200. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#d0d5dd",
+          "$description": "Cor primitiva da paleta — família “tinted”, tom 300. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#98a2b3",
+          "$description": "Cor primitiva da paleta — família “tinted”, tom 400. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#667085",
+          "$description": "Cor primitiva da paleta — família “tinted”, tom 500. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#475467",
+          "$description": "Cor primitiva da paleta — família “tinted”, tom 600. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#344054",
+          "$description": "Cor primitiva da paleta — família “tinted”, tom 700. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#182230",
+          "$description": "Cor primitiva da paleta — família “tinted”, tom 800. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#101828",
+          "$description": "Cor primitiva da paleta — família “tinted”, tom 900. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#0c111d",
+          "$description": "Cor primitiva da paleta — família “tinted”, tom 950. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        }
+      },
+      "mint": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f3fdf9",
+          "$description": "Cor primitiva da paleta — família “mint”, tom 25. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#e7fbf4",
+          "$description": "Cor primitiva da paleta — família “mint”, tom 50. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#cdf8e7",
+          "$description": "Cor primitiva da paleta — família “mint”, tom 100. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#a5f2d4",
+          "$description": "Cor primitiva da paleta — família “mint”, tom 200. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#7decc1",
+          "$description": "Cor primitiva da paleta — família “mint”, tom 300. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#55e6ae",
+          "$description": "Cor primitiva da paleta — família “mint”, tom 400. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#37e1a0",
+          "$description": "Cor primitiva da paleta — família “mint”, tom 500. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#30c48c",
+          "$description": "Cor primitiva da paleta — família “mint”, tom 600. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#279e71",
+          "$description": "Cor primitiva da paleta — família “mint”, tom 700. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#1e7856",
+          "$description": "Cor primitiva da paleta — família “mint”, tom 800. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#17583f",
+          "$description": "Cor primitiva da paleta — família “mint”, tom 900. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#11412f",
+          "$description": "Cor primitiva da paleta — família “mint”, tom 950. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor."
+        }
+      },
+      "citron": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#fcfef5",
+          "$description": "Cor primitiva da paleta — família \"citron\", tom 25. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor. Gerada por interpolação HSL (hue ~74°) ancorada no accent real da Vellumwire (#c6f135, tom 400) — tons vizinhos são aproximação, não cor de marca extraída 1:1."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f8fde8",
+          "$description": "Cor primitiva da paleta — família \"citron\", tom 50. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor. Gerada por interpolação HSL (hue ~74°) ancorada no accent real da Vellumwire (#c6f135, tom 400) — tons vizinhos são aproximação, não cor de marca extraída 1:1."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#f0fbcc",
+          "$description": "Cor primitiva da paleta — família \"citron\", tom 100. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor. Gerada por interpolação HSL (hue ~74°) ancorada no accent real da Vellumwire (#c6f135, tom 400) — tons vizinhos são aproximação, não cor de marca extraída 1:1."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#e6f8ab",
+          "$description": "Cor primitiva da paleta — família \"citron\", tom 200. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor. Gerada por interpolação HSL (hue ~74°) ancorada no accent real da Vellumwire (#c6f135, tom 400) — tons vizinhos são aproximação, não cor de marca extraída 1:1."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#d2f462",
+          "$description": "Cor primitiva da paleta — família \"citron\", tom 300. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor. Gerada por interpolação HSL (hue ~74°) ancorada no accent real da Vellumwire (#c6f135, tom 400) — tons vizinhos são aproximação, não cor de marca extraída 1:1."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#c6f135",
+          "$description": "Cor primitiva da paleta — família \"citron\", tom 400. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor. Gerada por interpolação HSL (hue ~74°) ancorada no accent real da Vellumwire (#c6f135, tom 400) — tons vizinhos são aproximação, não cor de marca extraída 1:1."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#a4d111",
+          "$description": "Cor primitiva da paleta — família \"citron\", tom 500. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor. Gerada por interpolação HSL (hue ~74°) ancorada no accent real da Vellumwire (#c6f135, tom 400) — tons vizinhos são aproximação, não cor de marca extraída 1:1."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#7e9e12",
+          "$description": "Cor primitiva da paleta — família \"citron\", tom 600. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor. Gerada por interpolação HSL (hue ~74°) ancorada no accent real da Vellumwire (#c6f135, tom 400) — tons vizinhos são aproximação, não cor de marca extraída 1:1."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#617a11",
+          "$description": "Cor primitiva da paleta — família \"citron\", tom 700. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor. Gerada por interpolação HSL (hue ~74°) ancorada no accent real da Vellumwire (#c6f135, tom 400) — tons vizinhos são aproximação, não cor de marca extraída 1:1."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#4f6113",
+          "$description": "Cor primitiva da paleta — família \"citron\", tom 800. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor. Gerada por interpolação HSL (hue ~74°) ancorada no accent real da Vellumwire (#c6f135, tom 400) — tons vizinhos são aproximação, não cor de marca extraída 1:1."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#455314",
+          "$description": "Cor primitiva da paleta — família \"citron\", tom 900. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor. Gerada por interpolação HSL (hue ~74°) ancorada no accent real da Vellumwire (#c6f135, tom 400) — tons vizinhos são aproximação, não cor de marca extraída 1:1."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#21280b",
+          "$description": "Cor primitiva da paleta — família \"citron\", tom 950. Token de fundação (não semântico): nunca vincular diretamente em componentes; sempre passar por um token semantic/color que referencie esta cor. Gerada por interpolação HSL (hue ~74°) ancorada no accent real da Vellumwire (#c6f135, tom 400) — tons vizinhos são aproximação, não cor de marca extraída 1:1."
+        }
+      }
+    }
+  }
+}

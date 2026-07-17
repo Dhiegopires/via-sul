@@ -1,0 +1,2392 @@
+{
+  "brand": {
+    "color": {
+      "base": {
+        "white": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{core.color.base.white}",
+          "$description": "Token de marca: color / base / white. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "black": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{core.color.base.black}",
+          "$description": "Token de marca: color / base / black. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "transparent": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{core.color.base.transparent}",
+          "$description": "Token de marca: color / base / transparent. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "overlayScrim": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{core.color.base.black}",
+          "$description": "Cor do scrim/overlay atrás de modais e drawers. Sempre preto (universal). Opacidade controlada no componente, não aqui."
+        }
+      },
+      "neutral": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.25}",
+          "$description": "Token de marca: color / neutral / 25. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.50}",
+          "$description": "Token de marca: color / neutral / 50. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.100}",
+          "$description": "Token de marca: color / neutral / 100. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.200}",
+          "$description": "Token de marca: color / neutral / 200. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.300}",
+          "$description": "Token de marca: color / neutral / 300. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.400}",
+          "$description": "Token de marca: color / neutral / 400. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.500}",
+          "$description": "Token de marca: color / neutral / 500. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.600}",
+          "$description": "Token de marca: color / neutral / 600. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.700}",
+          "$description": "Token de marca: color / neutral / 700. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.800}",
+          "$description": "Token de marca: color / neutral / 800. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.900}",
+          "$description": "Token de marca: color / neutral / 900. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.950}",
+          "$description": "Token de marca: color / neutral / 950. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        }
+      },
+      "primary": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.25}",
+          "$description": "Token de marca: color / primary / 25. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.50}",
+          "$description": "Token de marca: color / primary / 50. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.100}",
+          "$description": "Token de marca: color / primary / 100. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.200}",
+          "$description": "Token de marca: color / primary / 200. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.300}",
+          "$description": "Token de marca: color / primary / 300. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.400}",
+          "$description": "Token de marca: color / primary / 400. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.500}",
+          "$description": "Token de marca: color / primary / 500. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.600}",
+          "$description": "Token de marca: color / primary / 600. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.700}",
+          "$description": "Token de marca: color / primary / 700. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.800}",
+          "$description": "Token de marca: color / primary / 800. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.900}",
+          "$description": "Token de marca: color / primary / 900. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.950}",
+          "$description": "Token de marca: color / primary / 950. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        }
+      },
+      "error": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.red.25}",
+          "$description": "Token de marca: color / error / 25. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.red.50}",
+          "$description": "Token de marca: color / error / 50. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.red.100}",
+          "$description": "Token de marca: color / error / 100. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.red.200}",
+          "$description": "Token de marca: color / error / 200. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.red.300}",
+          "$description": "Token de marca: color / error / 300. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.red.400}",
+          "$description": "Token de marca: color / error / 400. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.red.500}",
+          "$description": "Token de marca: color / error / 500. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.red.600}",
+          "$description": "Token de marca: color / error / 600. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.red.700}",
+          "$description": "Token de marca: color / error / 700. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.red.800}",
+          "$description": "Token de marca: color / error / 800. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.red.900}",
+          "$description": "Token de marca: color / error / 900. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.red.950}",
+          "$description": "Token de marca: color / error / 950. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        }
+      },
+      "warning": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.25}",
+          "$description": "Token de marca: color / warning / 25. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.50}",
+          "$description": "Token de marca: color / warning / 50. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.100}",
+          "$description": "Token de marca: color / warning / 100. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.200}",
+          "$description": "Token de marca: color / warning / 200. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.300}",
+          "$description": "Token de marca: color / warning / 300. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.400}",
+          "$description": "Token de marca: color / warning / 400. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.500}",
+          "$description": "Token de marca: color / warning / 500. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.600}",
+          "$description": "Token de marca: color / warning / 600. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.700}",
+          "$description": "Token de marca: color / warning / 700. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.800}",
+          "$description": "Token de marca: color / warning / 800. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.900}",
+          "$description": "Token de marca: color / warning / 900. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.950}",
+          "$description": "Token de marca: color / warning / 950. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        }
+      },
+      "success": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.green.25}",
+          "$description": "Token de marca: color / success / 25. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.green.50}",
+          "$description": "Token de marca: color / success / 50. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.green.100}",
+          "$description": "Token de marca: color / success / 100. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.green.200}",
+          "$description": "Token de marca: color / success / 200. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.green.300}",
+          "$description": "Token de marca: color / success / 300. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.green.400}",
+          "$description": "Token de marca: color / success / 400. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.green.500}",
+          "$description": "Token de marca: color / success / 500. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.green.600}",
+          "$description": "Token de marca: color / success / 600. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.green.700}",
+          "$description": "Token de marca: color / success / 700. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.green.800}",
+          "$description": "Token de marca: color / success / 800. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.green.900}",
+          "$description": "Token de marca: color / success / 900. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.green.950}",
+          "$description": "Token de marca: color / success / 950. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        }
+      },
+      "secondary": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.25}",
+          "$description": "Token de marca: color / secondary / 25. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.50}",
+          "$description": "Token de marca: color / secondary / 50. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.100}",
+          "$description": "Token de marca: color / secondary / 100. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.200}",
+          "$description": "Token de marca: color / secondary / 200. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.300}",
+          "$description": "Token de marca: color / secondary / 300. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.400}",
+          "$description": "Token de marca: color / secondary / 400. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.500}",
+          "$description": "Token de marca: color / secondary / 500. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.600}",
+          "$description": "Token de marca: color / secondary / 600. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.700}",
+          "$description": "Token de marca: color / secondary / 700. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.800}",
+          "$description": "Token de marca: color / secondary / 800. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.900}",
+          "$description": "Token de marca: color / secondary / 900. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.950}",
+          "$description": "Token de marca: color / secondary / 950. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        }
+      },
+      "info": {
+        "25": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.25}",
+          "$description": "Token de marca: color / info / 25. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.50}",
+          "$description": "Token de marca: color / info / 50. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.100}",
+          "$description": "Token de marca: color / info / 100. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.200}",
+          "$description": "Token de marca: color / info / 200. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.300}",
+          "$description": "Token de marca: color / info / 300. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.400}",
+          "$description": "Token de marca: color / info / 400. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.500}",
+          "$description": "Token de marca: color / info / 500. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.600}",
+          "$description": "Token de marca: color / info / 600. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.700}",
+          "$description": "Token de marca: color / info / 700. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.800}",
+          "$description": "Token de marca: color / info / 800. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "900": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.900}",
+          "$description": "Token de marca: color / info / 900. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "950": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{palette.color.grey.950}",
+          "$description": "Token de marca: color / info / 950. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        }
+      },
+      "foregrond": {
+        "on": {
+          "primary": {
+            "dark": {
+              "subtle": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.primary.25}",
+                "$description": "Token de marca: color / foregrond / on / primary / dark. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              },
+              "strong": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.base.black}",
+                "$description": "Token de marca: color / foregrond / on / primary / dark. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              }
+            },
+            "light": {
+              "subtle": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.primary.950}",
+                "$description": "Token de marca: color / foregrond / on / primary / light. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              },
+              "strong": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.base.black}",
+                "$description": "Token de marca: color / foregrond / on / primary / light / strong. Texto sobre o fill 'strong' dessa cor — escuro porque o tom 'strong' desta marca fica claro/vívido em ambos os temas (não escurece no claro), diferente de neutral (que de fato inverte). Define um valor específico da identidade visual usado na construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              }
+            }
+          },
+          "warning": {
+            "dark": {
+              "subtle": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.neutral.25}",
+                "$description": "Token de marca: color / foregrond / on / warning / dark. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              },
+              "strong": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.base.black}",
+                "$description": "Token de marca: color / foregrond / on / warning / dark. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              }
+            },
+            "light": {
+              "subtle": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.neutral.900}",
+                "$description": "Token de marca: color / foregrond / on / warning / light. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              },
+              "strong": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.base.white}",
+                "$description": "Token de marca: color / foregrond / on / warning / light. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              }
+            }
+          },
+          "success": {
+            "dark": {
+              "subtle": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.neutral.25}",
+                "$description": "Token de marca: color / foregrond / on / success / dark. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              },
+              "strong": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.base.black}",
+                "$description": "Token de marca: color / foregrond / on / success / dark. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              }
+            },
+            "light": {
+              "subtle": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.neutral.900}",
+                "$description": "Token de marca: color / foregrond / on / success / light. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              },
+              "strong": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.base.white}",
+                "$description": "Token de marca: color / foregrond / on / success / light. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              }
+            }
+          },
+          "error": {
+            "light": {
+              "subtle": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.neutral.950}",
+                "$description": "Token de marca: color / foregrond / on / error / light. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              },
+              "strong": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.base.black}",
+                "$description": "Token de marca: color / foregrond / on / error / light / strong. Texto sobre o fill 'strong' dessa cor — escuro porque o tom 'strong' desta marca fica claro/vívido em ambos os temas (não escurece no claro), diferente de neutral (que de fato inverte). Define um valor específico da identidade visual usado na construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              }
+            },
+            "dark": {
+              "subtle": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.neutral.25}",
+                "$description": "Token de marca: color / foregrond / on / error / dark. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              },
+              "strong": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.base.black}",
+                "$description": "Token de marca: color / foregrond / on / error / dark. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              }
+            }
+          },
+          "neutral": {
+            "light": {
+              "subtle": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.neutral.950}",
+                "$description": "Token de marca: color / foregrond / on / neutral / light. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              },
+              "strong": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.base.white}",
+                "$description": "Token de marca: color / foregrond / on / neutral / light. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              }
+            },
+            "dark": {
+              "subtle": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.neutral.25}",
+                "$description": "Token de marca: color / foregrond / on / neutral / dark. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              },
+              "strong": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.base.black}",
+                "$description": "Token de marca: color / foregrond / on / neutral / dark. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              }
+            }
+          },
+          "info": {
+            "dark": {
+              "subtle": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.neutral.25}",
+                "$description": "Token de marca: color / foregrond / on / info / dark. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              },
+              "strong": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.base.black}",
+                "$description": "Token de marca: color / foregrond / on / info / dark. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              }
+            },
+            "light": {
+              "subtle": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.neutral.950}",
+                "$description": "Token de marca: color / foregrond / on / info / light. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              },
+              "strong": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.base.white}",
+                "$description": "Token de marca: color / foregrond / on / info / light. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              }
+            }
+          },
+          "secondary": {
+            "light": {
+              "subtle": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.neutral.950}",
+                "$description": "Token de marca: color / foregrond / on / primary / light. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              },
+              "strong": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.base.black}",
+                "$description": "Token de marca: color / foregrond / on / secondary / light / strong. Texto sobre o fill 'strong' dessa cor — escuro porque o tom 'strong' desta marca fica claro/vívido em ambos os temas (não escurece no claro), diferente de neutral (que de fato inverte). Define um valor específico da identidade visual usado na construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              }
+            },
+            "dark": {
+              "subtle": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.neutral.25}",
+                "$description": "Token de marca: color / foregrond / on / primary / dark. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              },
+              "strong": {
+                "$extensions": {
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.base.black}",
+                "$description": "Token de marca: color / foregrond / on / primary / dark. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+              }
+            }
+          },
+          "inverse": {
+            "dark": {
+              "subtle": {
+                "$extensions": {
+                  "com.figma.scopes": [
+                    "ALL_SCOPES"
+                  ],
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.neutral.25}",
+                "$description": "Texto/ícone escuro para uso sobre background/contrast/*, background/inverse. Par para surfaces invertidas. (Nota: typo \"foregrond\" mantido para não quebrar referências.)"
+              },
+              "strong": {
+                "$extensions": {
+                  "com.figma.scopes": [
+                    "ALL_SCOPES"
+                  ],
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.neutral.25}",
+                "$description": "Texto/ícone escuro para uso sobre background/contrast/*, background/inverse. Par para surfaces invertidas. (Nota: typo \"foregrond\" mantido para não quebrar referências.)"
+              }
+            },
+            "light": {
+              "subtle": {
+                "$extensions": {
+                  "com.figma.scopes": [
+                    "ALL_SCOPES"
+                  ],
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.neutral.950}",
+                "$description": "Texto/ícone escuro para uso sobre background/contrast/*, background/inverse. Par para surfaces invertidas. (Nota: typo \"foregrond\" mantido para não quebrar referências.)"
+              },
+              "strong": {
+                "$extensions": {
+                  "com.figma.scopes": [
+                    "ALL_SCOPES"
+                  ],
+                  "com.figma.hiddenFromPublishing": false
+                },
+                "$type": "color",
+                "$value": "{brand.color.neutral.950}",
+                "$description": "Texto/ícone escuro para uso sobre background/contrast/*, background/inverse. Par para surfaces invertidas. (Nota: typo \"foregrond\" mantido para não quebrar referências.)"
+              }
+            }
+          }
+        }
+      },
+      "ink": {
+        "light": {
+          "20": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#0a0a0a33",
+            "$description": "Token de marca: color / ink / light / 20. \"Tinta\" da hierarquia de texto por opacidade — preto/branco puro tingido pela família neutral da marca (não core.alpha genérico), pra manter a personalidade do brand mesmo no texto. Não vincular diretamente em componentes de produto."
+          },
+          "50": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#0a0a0a80",
+            "$description": "Token de marca: color / ink / light / 50. \"Tinta\" da hierarquia de texto por opacidade — preto/branco puro tingido pela família neutral da marca (não core.alpha genérico), pra manter a personalidade do brand mesmo no texto. Não vincular diretamente em componentes de produto."
+          },
+          "70": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#0a0a0ab3",
+            "$description": "Token de marca: color / ink / light / 70. \"Tinta\" da hierarquia de texto por opacidade — preto/branco puro tingido pela família neutral da marca (não core.alpha genérico), pra manter a personalidade do brand mesmo no texto. Não vincular diretamente em componentes de produto."
+          },
+          "90": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#0a0a0ae6",
+            "$description": "Token de marca: color / ink / light / 90. \"Tinta\" da hierarquia de texto por opacidade — preto/branco puro tingido pela família neutral da marca (não core.alpha genérico), pra manter a personalidade do brand mesmo no texto. Não vincular diretamente em componentes de produto."
+          }
+        },
+        "dark": {
+          "20": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#fffefe33",
+            "$description": "Token de marca: color / ink / dark / 20. \"Tinta\" da hierarquia de texto por opacidade — preto/branco puro tingido pela família neutral da marca (não core.alpha genérico), pra manter a personalidade do brand mesmo no texto. Não vincular diretamente em componentes de produto."
+          },
+          "50": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#fffefe80",
+            "$description": "Token de marca: color / ink / dark / 50. \"Tinta\" da hierarquia de texto por opacidade — preto/branco puro tingido pela família neutral da marca (não core.alpha genérico), pra manter a personalidade do brand mesmo no texto. Não vincular diretamente em componentes de produto."
+          },
+          "70": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#fffefeb3",
+            "$description": "Token de marca: color / ink / dark / 70. \"Tinta\" da hierarquia de texto por opacidade — preto/branco puro tingido pela família neutral da marca (não core.alpha genérico), pra manter a personalidade do brand mesmo no texto. Não vincular diretamente em componentes de produto."
+          },
+          "90": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#fffefee6",
+            "$description": "Token de marca: color / ink / dark / 90. \"Tinta\" da hierarquia de texto por opacidade — preto/branco puro tingido pela família neutral da marca (não core.alpha genérico), pra manter a personalidade do brand mesmo no texto. Não vincular diretamente em componentes de produto."
+          }
+        }
+      }
+    },
+    "font": {
+      "family": {
+        "display": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "text",
+          "$value": "Inter",
+          "$description": "Token de marca: font / family / display. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "body": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "text",
+          "$value": "Inter",
+          "$description": "Token de marca: font / family / body. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "ui": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "text",
+          "$value": "Inter",
+          "$description": "Token de marca: font / family / ui. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "secondary": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "text",
+          "$value": "Inter",
+          "$description": "Token de marca: font / family / secondary. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "mono": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "text",
+          "$value": "monospace",
+          "$description": "Token de marca: font / family / mono. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto. Placeholder genérico — sem identidade mono real definida ainda pra essa marca."
+        }
+      },
+      "weight": {
+        "light": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.font.weight.300}",
+          "$description": "Token de marca: font / weight / light. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "regular": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.font.weight.400}",
+          "$description": "Token de marca: font / weight / regular. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "medium": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.font.weight.500}",
+          "$description": "Token de marca: font / weight / medium. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "semibold": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.font.weight.600}",
+          "$description": "Token de marca: font / weight / semibold. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "bold": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.font.weight.700}",
+          "$description": "Token de marca: font / weight / bold. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        }
+      },
+      "size": {
+        "display": {
+          "xs": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.size.18}",
+            "$description": "Token de marca: font / size / display / xs. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "sm": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.size.20}",
+            "$description": "Token de marca: font / size / display / sm. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "md": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.size.28}",
+            "$description": "Token de marca: font / size / display / md. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "lg": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.size.36}",
+            "$description": "Token de marca: font / size / display / lg. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "xl": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.size.40}",
+            "$description": "Token de marca: font / size / display / xl. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "2xl": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.size.48}",
+            "$description": "Token de marca: font / size / display / 2xl. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "2xs": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.size.18}",
+            "$description": "Token de marca: font / size / display / 2xs. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          }
+        },
+        "body": {
+          "xs": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.size.12}",
+            "$description": "Token de marca: font / size / body / xs. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "sm": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.size.14}",
+            "$description": "Token de marca: font / size / body / sm. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "md": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.size.16}",
+            "$description": "Token de marca: font / size / body / md. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "lg": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.size.18}",
+            "$description": "Token de marca: font / size / body / lg. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "xl": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.size.20}",
+            "$description": "Token de marca: font / size / body / xl. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "2xl": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.size.24}",
+            "$description": "Token de marca: font / size / body / 2xl. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          }
+        },
+        "ui": {
+          "xs": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.size.12}",
+            "$description": "Token de marca: font / size / ui / xs. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "sm": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.size.14}",
+            "$description": "Token de marca: font / size / ui / sm. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "md": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.size.16}",
+            "$description": "Token de marca: font / size / ui / md. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "lg": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.size.18}",
+            "$description": "Token de marca: font / size / ui / lg. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "xl": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.size.20}",
+            "$description": "Token de marca: font / size / ui / xl. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "2xl": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.size.24}",
+            "$description": "Token de marca: font / size / ui / 2xl. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          }
+        },
+        "mono": {
+          "xs": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.size.12}",
+            "$description": "Token de marca: font / size / mono / xs. Piso de legibilidade — nunca abaixo de 12px, mesmo que o legado de origem use menos. Define um valor específico da identidade visual usado na construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "sm": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.size.14}",
+            "$description": "Token de marca: font / size / mono / sm. Define um valor específico da identidade visual usado na construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          }
+        }
+      },
+      "line": {
+        "display": {
+          "xs": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.line.24}",
+            "$description": "Token de marca: font / line / display / xs. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "sm": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.line.28}",
+            "$description": "Token de marca: font / line / display / sm. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "md": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.line.32}",
+            "$description": "Token de marca: font / line / display / md. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "lg": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.line.40}",
+            "$description": "Token de marca: font / line / display / lg. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "xl": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.line.44}",
+            "$description": "Token de marca: font / line / display / xl. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "2xl": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.line.52}",
+            "$description": "Token de marca: font / line / display / 2xl. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "2xs": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.line.24}",
+            "$description": "Token de marca: font / line / display / 2xs. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          }
+        },
+        "body": {
+          "xs": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.line.16}",
+            "$description": "Token de marca: font / line / body / xs. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "sm": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.line.18}",
+            "$description": "Token de marca: font / line / body / sm. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "md": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.line.20}",
+            "$description": "Token de marca: font / line / body / md. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "lg": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.line.24}",
+            "$description": "Token de marca: font / line / body / lg. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "xl": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.line.28}",
+            "$description": "Token de marca: font / line / body / xl. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "2xl": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.line.32}",
+            "$description": "Token de marca: font / line / body / 2xl. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          }
+        },
+        "ui": {
+          "xs": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.line.12}",
+            "$description": "Token de marca: font / line / ui / xs. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "sm": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.line.14}",
+            "$description": "Token de marca: font / line / ui / sm. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "md": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.line.16}",
+            "$description": "Token de marca: font / line / ui / md. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "lg": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.line.18}",
+            "$description": "Token de marca: font / line / ui / lg. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "xl": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.line.20}",
+            "$description": "Token de marca: font / line / ui / xl. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "2xl": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.line.24}",
+            "$description": "Token de marca: font / line / ui / 2xl. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          }
+        }
+      },
+      "tracking": {
+        "display": {
+          "xs": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.tracking.0}",
+            "$description": "Token de marca: font / tracking / display / xs. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "sm": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.tracking.0}",
+            "$description": "Token de marca: font / tracking / display / sm. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "md": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.tracking.0}",
+            "$description": "Token de marca: font / tracking / display / md. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "lg": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.tracking.negative.1}",
+            "$description": "Token de marca: font / tracking / display / lg. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "xl": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.tracking.negative.2}",
+            "$description": "Token de marca: font / tracking / display / xl. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "2xl": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.tracking.negative.3}",
+            "$description": "Token de marca: font / tracking / display / 2xl. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "2xs": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.tracking.0}",
+            "$description": "Token de marca: font / tracking / display / 2xs. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          }
+        },
+        "body": {
+          "xs": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.tracking.positive.2}",
+            "$description": "Token de marca: font / tracking / body / xs. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "sm": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.tracking.positive.2}",
+            "$description": "Token de marca: font / tracking / body / sm. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "md": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.tracking.positive.2}",
+            "$description": "Token de marca: font / tracking / body / md. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "lg": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.tracking.positive.1}",
+            "$description": "Token de marca: font / tracking / body / lg. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "xl": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.tracking.0}",
+            "$description": "Token de marca: font / tracking / body / xl. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "2xl": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.tracking.0}",
+            "$description": "Token de marca: font / tracking / body / 2xl. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          }
+        },
+        "ui": {
+          "xs": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.tracking.positive.2}",
+            "$description": "Token de marca: font / tracking / ui / xs. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "sm": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.tracking.positive.2}",
+            "$description": "Token de marca: font / tracking / ui / sm. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "md": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.tracking.positive.2}",
+            "$description": "Token de marca: font / tracking / ui / md. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "lg": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.tracking.positive.1}",
+            "$description": "Token de marca: font / tracking / ui / lg. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "xl": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.tracking.0}",
+            "$description": "Token de marca: font / tracking / ui / xl. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          },
+          "2xl": {
+            "$extensions": {
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "number",
+            "$value": "{core.font.tracking.0}",
+            "$description": "Token de marca: font / tracking / ui / 2xl. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+          }
+        },
+        "mono": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.font.tracking.positive.10}",
+          "$description": "Token de marca: font / tracking / mono. Tracking largo característico de texto mono/label em caixa alta (eyebrows, tags). Define um valor específico da identidade visual usado na construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        }
+      }
+    },
+    "radius": {
+      "none": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{core.radius.none}",
+        "$description": "Token de marca: radius / none. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+      },
+      "ui": {
+        "control": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.radius.4}",
+          "$description": "Token de marca: radius / ui / control. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "card": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.radius.12}",
+          "$description": "Token de marca: radius / ui / card. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "modal": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.radius.20}",
+          "$description": "Token de marca: radius / ui / modal. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        }
+      },
+      "xs": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{core.radius.2}",
+        "$description": "Token de marca: radius / xs. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+      },
+      "sm": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{core.radius.4}",
+        "$description": "Token de marca: radius / sm. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+      },
+      "md": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{core.radius.8}",
+        "$description": "Token de marca: radius / md. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+      },
+      "lg": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{core.radius.12}",
+        "$description": "Token de marca: radius / lg. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+      },
+      "xl": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{core.radius.16}",
+        "$description": "Token de marca: radius / xl. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+      },
+      "2xl": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{core.radius.20}",
+        "$description": "Token de marca: radius / 2xl. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+      },
+      "3xl": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{core.radius.24}",
+        "$description": "Token de marca: radius / 3xl. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+      },
+      "pill": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{core.radius.pill}",
+        "$description": "Token de marca: radius / pill. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+      }
+    },
+    "borderWidth": {
+      "none": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{core.borderWidth.0}",
+        "$description": "Token de marca: borderWidth / none. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+      },
+      "hairline": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{core.borderWidth.1}",
+        "$description": "Token de marca: borderWidth / hairline. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+      },
+      "default": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{core.borderWidth.1}",
+        "$description": "Token de marca: borderWidth / default. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+      },
+      "strong": {
+        "$extensions": {
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": "{core.borderWidth.2}",
+        "$description": "Token de marca: borderWidth / strong. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+      }
+    },
+    "size": {
+      "icon": {
+        "xs": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.size.2}",
+          "$description": "Token de marca: size / icon / xs. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "sm": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.size.3}",
+          "$description": "Token de marca: size / icon / sm. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "md": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.size.4}",
+          "$description": "Token de marca: size / icon / md. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "lg": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.size.5}",
+          "$description": "Token de marca: size / icon / lg. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "xl": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.size.6}",
+          "$description": "Token de marca: size / icon / xl. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "2xl": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.size.7}",
+          "$description": "Token de marca: size / icon / 2xl. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "3xl": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.size.8}",
+          "$description": "Token de marca: size / icon / 3xl. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "4xl": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.size.9}",
+          "$description": "Token de marca: size / icon / 4xl. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "5xl": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.size.10}",
+          "$description": "Token de marca: size / icon / 5xl. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "6xl": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.size.11}",
+          "$description": "Token de marca: size / icon / 6xl. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        }
+      }
+    },
+    "space": {
+      "sm": {
+        "tablet": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.8}",
+          "$description": "Espaçamento sm para tablet. Reduzido em relação ao desktop. Sobrescrever por cliente."
+        },
+        "mobile": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.6}",
+          "$description": "Espaçamento sm para mobile. Mais compacto. Sobrescrever por cliente para densidade diferente."
+        },
+        "desktop": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.8}",
+          "$description": "Espaçamento sm para desktop. Referencia core/space. Sobrescrever por cliente para densidade diferente."
+        }
+      },
+      "md": {
+        "tablet": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.14}",
+          "$description": "Espaçamento md para tablet. Reduzido em relação ao desktop. Sobrescrever por cliente."
+        },
+        "mobile": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.12}",
+          "$description": "Espaçamento md para mobile. Mais compacto. Sobrescrever por cliente para densidade diferente."
+        },
+        "desktop": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.16}",
+          "$description": "Espaçamento md para desktop. Referencia core/space. Sobrescrever por cliente para densidade diferente."
+        }
+      },
+      "lg": {
+        "tablet": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.20}",
+          "$description": "Espaçamento lg para tablet. Reduzido em relação ao desktop. Sobrescrever por cliente."
+        },
+        "mobile": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.16}",
+          "$description": "Espaçamento lg para mobile. Mais compacto. Sobrescrever por cliente para densidade diferente."
+        },
+        "desktop": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.24}",
+          "$description": "Espaçamento lg para desktop. Referencia core/space. Sobrescrever por cliente para densidade diferente."
+        }
+      },
+      "xl": {
+        "tablet": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.24}",
+          "$description": "Espaçamento xl para tablet. Reduzido em relação ao desktop. Sobrescrever por cliente."
+        },
+        "mobile": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.20}",
+          "$description": "Espaçamento xl para mobile. Mais compacto. Sobrescrever por cliente para densidade diferente."
+        },
+        "desktop": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.32}",
+          "$description": "Espaçamento xl para desktop. Referencia core/space. Sobrescrever por cliente para densidade diferente."
+        }
+      },
+      "2xl": {
+        "tablet": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.32}",
+          "$description": "Espaçamento 2xl para tablet. Reduzido em relação ao desktop. Sobrescrever por cliente."
+        },
+        "mobile": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.24}",
+          "$description": "Espaçamento 2xl para mobile. Mais compacto. Sobrescrever por cliente para densidade diferente."
+        },
+        "desktop": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.40}",
+          "$description": "Espaçamento 2xl para desktop. Referencia core/space. Sobrescrever por cliente para densidade diferente."
+        }
+      },
+      "3xl": {
+        "tablet": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.40}",
+          "$description": "Espaçamento 3xl para tablet. Reduzido em relação ao desktop. Sobrescrever por cliente."
+        },
+        "mobile": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.32}",
+          "$description": "Espaçamento 3xl para mobile. Mais compacto. Sobrescrever por cliente para densidade diferente."
+        },
+        "desktop": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.48}",
+          "$description": "Espaçamento 3xl para desktop. Referencia core/space. Sobrescrever por cliente para densidade diferente."
+        }
+      },
+      "4xl": {
+        "tablet": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.48}",
+          "$description": "Espaçamento 4xl para tablet. Reduzido em relação ao desktop. Sobrescrever por cliente."
+        },
+        "mobile": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.40}",
+          "$description": "Espaçamento 4xl para mobile. Mais compacto. Sobrescrever por cliente para densidade diferente."
+        },
+        "desktop": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.56}",
+          "$description": "Espaçamento 4xl para desktop. Referencia core/space. Sobrescrever por cliente para densidade diferente."
+        }
+      },
+      "5xl": {
+        "tablet": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.56}",
+          "$description": "Espaçamento 5xl para tablet. Reduzido em relação ao desktop. Sobrescrever por cliente."
+        },
+        "mobile": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.48}",
+          "$description": "Espaçamento 5xl para mobile. Mais compacto. Sobrescrever por cliente para densidade diferente."
+        },
+        "desktop": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.64}",
+          "$description": "Espaçamento 5xl para desktop. Referencia core/space. Sobrescrever por cliente para densidade diferente."
+        }
+      },
+      "6xl": {
+        "tablet": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.64}",
+          "$description": "Espaçamento 6xl para tablet. Reduzido em relação ao desktop. Sobrescrever por cliente."
+        },
+        "mobile": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.56}",
+          "$description": "Espaçamento 6xl para mobile. Mais compacto. Sobrescrever por cliente para densidade diferente."
+        },
+        "desktop": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.72}",
+          "$description": "Espaçamento 6xl para desktop. Referencia core/space. Sobrescrever por cliente para densidade diferente."
+        }
+      },
+      "7xl": {
+        "tablet": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.72}",
+          "$description": "Espaçamento 7xl para tablet. Reduzido em relação ao desktop. Sobrescrever por cliente."
+        },
+        "mobile": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.64}",
+          "$description": "Espaçamento 7xl para mobile. Mais compacto. Sobrescrever por cliente para densidade diferente."
+        },
+        "desktop": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.space.80}",
+          "$description": "Espaçamento 7xl para desktop. Referencia core/space. Sobrescrever por cliente para densidade diferente."
+        }
+      }
+    },
+    "motion": {
+      "duration": {
+        "instant": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.motion.duration.instant}",
+          "$description": "Token de marca: motion / duration / instant. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "fast": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.motion.duration.fast}",
+          "$description": "Token de marca: motion / duration / fast. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "normal": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.motion.duration.normal}",
+          "$description": "Token de marca: motion / duration / normal. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "slow": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.motion.duration.slow}",
+          "$description": "Token de marca: motion / duration / slow. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "slower": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.motion.duration.slower}",
+          "$description": "Token de marca: motion / duration / slower. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "slowest": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": "{core.motion.duration.slowest}",
+          "$description": "Token de marca: motion / duration / slowest. Define um valor específico da identidade visual usado na construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        }
+      },
+      "easing": {
+        "linear": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "text",
+          "$value": "{core.motion.easing.linear}",
+          "$description": "Token de marca: motion / easing / linear. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "standard": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "text",
+          "$value": "{core.motion.easing.standard}",
+          "$description": "Token de marca: motion / easing / standard. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "decelerate": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "text",
+          "$value": "{core.motion.easing.decelerate}",
+          "$description": "Token de marca: motion / easing / decelerate. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "accelerate": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "text",
+          "$value": "{core.motion.easing.accelerate}",
+          "$description": "Token de marca: motion / easing / accelerate. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "emphasized": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "text",
+          "$value": "{core.motion.easing.emphasized}",
+          "$description": "Token de marca: motion / easing / emphasized. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        }
+      }
+    },
+    "shadow": {
+      "elevation": {
+        "subtle": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "text",
+          "$value": "{core.shadow.elevation.subtle}",
+          "$description": "Token de marca: shadow / elevation / subtle. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        },
+        "mid": {
+          "$extensions": {
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "text",
+          "$value": "{core.shadow.elevation.mid}",
+          "$description": "Token de marca: shadow / elevation / mid. Define um valor específico da identidade visual (cor, tipografia ou dimensão) usado como base para a construção de tokens semânticos — não vincular diretamente em componentes de produto."
+        }
+      }
+    }
+  }
+}

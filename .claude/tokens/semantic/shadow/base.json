@@ -1,0 +1,36 @@
+{
+  "semantic": {
+    "shadow": {
+      "elevation": {
+        "subtle": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-shadow-elevation-subtle)"
+            }
+          },
+          "$type": "text",
+          "$value": "{brand.shadow.elevation.subtle}",
+          "$description": "Token semântico de sombra: elevation / subtle. Box-shadow completo (drop-shadow neutro) pra elevação leve de cards e painéis. Aplicar em box-shadow."
+        },
+        "mid": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-shadow-elevation-mid)"
+            }
+          },
+          "$type": "text",
+          "$value": "{brand.shadow.elevation.mid}",
+          "$description": "Token semântico de sombra: elevation / mid. Box-shadow completo pra elevação mais pronunciada (painéis flutuantes, dropdowns). Aplicar em box-shadow."
+        }
+      }
+    }
+  }
+}
